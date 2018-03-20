@@ -8,3 +8,6 @@
 
 
 	http://82.207.107.126:13541/SimpleRide/LODA/SM.WebApi/api/Schedule/?routeId=1059838&code=01418
+
+
+	http://82.207.107.126:13541/SimpleRIDE/LODA/Sr/#/app/simple
