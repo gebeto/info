@@ -1,4 +1,4 @@
-# S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript
+# S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript 
 
 ![logo](https://cdn-images-1.medium.com/max/800/1*qfk6AFv4OF1GRd1WZJc25A.jpeg)
 
