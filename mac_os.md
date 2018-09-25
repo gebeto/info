@@ -38,6 +38,7 @@
 ### CLI Tools
  - oh-my-zsh ([link](https://github.com/robbyrussell/oh-my-zsh#via-wget))
  - bat ([link](https://github.com/sharkdp/bat))
+ - Heroku ([link](https://devcenter.heroku.com/articles/heroku-cli))
  - ngrok ([link](https://ngrok.com))
  - unrar
  - wget
