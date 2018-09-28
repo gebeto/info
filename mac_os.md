@@ -4,6 +4,9 @@
 <table>
  <tbody>
   <tr>
+  	<th rowspan="7">Internet</th>
+  </tr>
+  <tr>
   	<td>Chrome</td>
   	<td><a target="_blank" href="https://www.google.com/chrome">Download</a></td>
   </tr>
