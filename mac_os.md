@@ -50,5 +50,11 @@
  - serve
  - create-react-app
  - coursehunters-cli
- `
- 
+
+### Internet
+<table>
+<tbody>
+ <tr><th colspan="2">Internet</td></tr>
+ <tr><th>Hello</td><th>Hello</th></tr>
+</tbody>
+</table>
