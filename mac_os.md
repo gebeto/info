@@ -62,7 +62,7 @@
  
 
   <tr>
-    <th colspan="6">Graphic</th>
+    <th rowspan="6">Graphic</th>
   </tr>
   <tr>
   	<td>Sketch</td>
