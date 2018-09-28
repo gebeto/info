@@ -1,8 +1,10 @@
 ## Applications
 
-### Internet
+
 <table>
  <tbody>
+
+
   <tr>
   	<th rowspan="7">Internet</th>
   </tr>
@@ -94,6 +96,7 @@
   	<td><a target="_blank" href="https://www.videolan.org/index.html">Download</a></td>
   </tr>
 
+
   <tr>
     <th rowspan="9">CLI</th>
   </tr>
@@ -125,21 +128,40 @@
   	<td>Heroku</td>
   	<td><a target="_blank" href="https://devcenter.heroku.com/articles/heroku-cli">Download</a></td>
   </tr>
-	<tr>
-  	<td>ngrok</td>
-  	<td><a target="_blank" href="https://ngrok.com">Download</a></td>
+  <tr>
+    <td>ngrok</td>
+    <td><a target="_blank" href="https://ngrok.com">Download</a></td>
   </tr>
+
+
+  <tr>
+    <th rowspan="3">CLI tools</th>
+  </tr>
+  <tr>
+    <td colspan="2">unrar</td>
+  </tr>
+  <tr>
+    <td colspan="2">wget</td>
+  </tr>
+
+
+  <tr>
+    <th rowspan="3">NPM tools</th>
+  </tr>
+  <tr>
+    <td colspan="2">yarn</td>
+  </tr>
+  <tr>
+    <td colspan="2">serve</td>
+  </tr>
+  <tr>
+    <td colspan="2">create-react-app</td>
+  </tr>
+  <tr>
+    <td colspan="2">coursehunters-cli</td>
+  </tr>
+
+
  </tbody>
 </table>
-
-### CLI Tools
- - unrar
- - wget
- 
- 
-### NPM packages
- - yarn
- - serve
- - create-react-app
- - coursehunters-cli
 
