@@ -146,7 +146,7 @@
 
 
   <tr>
-    <th rowspan="3">NPM tools</th>
+    <th rowspan="5">NPM tools</th>
   </tr>
   <tr>
     <td colspan="2">yarn</td>
