@@ -6,6 +6,7 @@
  - Wunderlist ([link](https://www.wunderlist.com))
  - Spark ([link](https://sparkmailapp.com))
  - Telegram ([link](https://telegram.org))
+ - Charles ([link](https://www.charlesproxy.com))
 
 ### Coding
  - Sublime Text ([link](https://www.sublimetext.com))
