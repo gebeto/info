@@ -1,9 +1,14 @@
 ## Applications
 
 ### Internet
- - Chrome ([link](https://www.google.com/chrome))
- - Firefox ([link](https://www.mozilla.org/ru/firefox/new))
- - Wunderlist ([link](https://www.wunderlist.com))
+<table>
+ <tbody>
+  <tr><td>Chrome</td><td><a href="https://www.google.com/chrome">Download</td></tr>
+  <tr><td>Firefox</td><td><a href="https://www.mozilla.org/ru/firefox/new">Download</td></tr>
+  <tr><td>Wunderlist</td><td><a href="https://www.wunderlist.com">Download</td></tr>
+ </tbody>
+</table>
+
  - Spark ([link](https://sparkmailapp.com))
  - Telegram ([link](https://telegram.org))
  - Charles ([link](https://www.charlesproxy.com))
