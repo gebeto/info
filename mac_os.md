@@ -30,12 +30,11 @@
   	<td>Charles</td>
   	<td><a target="_blank" href="https://www.charlesproxy.com">Download</a></td>
   </tr>
- </tbody>
-</table>
 
-### Coding
-<table>
- <tbody>
+
+  <tr>
+    <th rowspan="7">Coding</th>
+  </tr>
   <tr>
   	<td>Sublime Text</td>
   	<td><a target="_blank" href="https://www.sublimetext.com">Download</a></td>
@@ -60,12 +59,11 @@
   	<td>KodeLife</td>
   	<td><a target="_blank" href="https://hexler.net/software/kodelife">Download</a></td>
   </tr>
- </tbody>
-</table>
  
-### Graphic
-<table>
- <tbody>
+
+  <tr>
+    <th colspan="6">Graphic</th>
+  </tr>
   <tr>
   	<td>Sketch</td>
   	<td><a target="_blank" href="https://www.sketchapp.com">Download</a></td>
@@ -86,23 +84,19 @@
   	<td>Zeplin</td>
   	<td><a target="_blank" href="https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps">Download</a></td>
   </tr>
- </tbody>
-</table>
- 
-### Other
-<table>
- <tbody>
+
+
+  <tr>
+    <th rowspan="2">Other</th>
+  </tr>
   <tr>
   	<td>VLC</td>
   	<td><a target="_blank" href="https://www.videolan.org/index.html">Download</a></td>
   </tr>
- </tbody>
-</table>
 
-
-## CLI
-<table>
- <tbody>
+  <tr>
+    <th rowspan="9">CLI</th>
+  </tr>
   <tr>
   	<td>iTerm</td>
   	<td><a target="_blank" href="https://www.iterm2.com">Download</a></td>
