@@ -1,5 +1,7 @@
 ![](https://cdn-images-1.medium.com/max/1000/1*XFPXLVyqY0kDkvzIOaD9kw.png)
 
+Info
+
 # Git Basics: Adding more changes to your last commit
 
 With this post you'll learn how to modify your last commit, adding (or removing)
