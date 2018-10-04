@@ -1,6 +1,5 @@
 ## Applications
 
-
 <table>
  <tbody>
 
