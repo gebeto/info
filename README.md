@@ -1,6 +1,6 @@
 # info
 
-[NULP](NULP)
+[NULP](nulp)
 
 [SOLID](solid)
 
