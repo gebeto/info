@@ -2,7 +2,7 @@
 
 [NULP](NULP)
 
-[SOLID](SOLID)
+[SOLID](solid)
 
 [Patterns](patterns)
  - [Abstract Factory](patterns/abstract_factory)
