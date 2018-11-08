@@ -18,7 +18,7 @@ So you have a commit history like this one (older commits on top):
     a5f4a0d update changelog file
 
 But you forgot to add *just* a single line on the changelog file you mentioned
-on the commit **a5f4a0d **:(
+on the commit **a5f4a0d** :(
 
 You could simply commit it and have a history like this:
 
