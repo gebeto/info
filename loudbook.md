@@ -11,7 +11,6 @@
 
 # Intro
  > https://storage.loudbook.ru/storagenew/{COURSE_ID}/records/000.mp3
- > https://storage.loudbook.ru/storagenew/{COURSE_ID}/records/000.mp3
  
 # First lesson
  > https://storage.loudbook.ru/storagenew/{COURSE_ID}/records/01.mp3
