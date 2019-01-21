@@ -1,0 +1,76 @@
+{
+    "general_status": "open",
+	"show_onhold_help": true,
+    "show_simulator_link": false,
+    "weekend_1_text": "BUY NOW",
+    "weekend_2_text": "BUY NOW",
+    "header": {
+        "description": "NOW ON SALE",
+        "title": "GLOBAL JOURNEY SALE"
+    },
+    "shops": [
+        {
+            "id": "shopFlightWeekend1",
+            "status": "active",
+            "url": "https://flight.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopBusWeekend1",
+            "status": "active",
+            "url": "https://bus.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopTrainWeekend1",
+            "status": "active",
+            "url": "https://train.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopHotelWeekend1",
+            "status": "active",
+            "url": "https://hotel.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopFriendshipWeekend1",
+            "status": "active",
+            "url": "https://friendship.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopDiscoverBelgiumWeekend1",
+            "status": "active",
+            "url": "https://hotel.weekend1.tomorrowland.com/?discover=true"
+        },
+        {
+            "id": "shopDiscoverEuropeWeekend1",
+            "status": "active",
+            "url": "https://discovereurope.weekend1.tomorrowland.com"
+        },
+        {
+            "id": "shopFlightWeekend2",
+            "status": "active",
+            "url": "https://flight.weekend2.tomorrowland.com"
+        },
+        {
+            "id": "shopBusWeekend2",
+            "status": "sold-out"
+        },
+        {
+            "id": "shopTrainWeekend2",
+            "status": "active",
+            "url": "https://train.weekend2.tomorrowland.com"
+        },
+        {
+            "id": "shopHotelWeekend2",
+            "status": "active",
+            "url": "https://hotel.weekend2.tomorrowland.com"
+        },
+        {
+            "id": "shopFriendshipWeekend2",
+            "status": "active",
+            "url": "https://friendship.weekend2.tomorrowland.com"
+        },
+        {
+            "id": "shopCelebrationWeekend2",
+            "status": "sold-out"
+        }
+    ]
+}
