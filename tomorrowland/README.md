@@ -1,5 +1,7 @@
-# Owner is {{ data.users[0].first_name }} {{ data.users[0].second_name }} {{ data.users[0].age }}
-## Title is {{ page.title }}
+# Owner is *{{ data.users }}*
+# Owner is {{ data.users }}
+# Owner is *{{ data.users[0].first_name }}*
+# Owner is {{ data.users[0].first_name }}
 
 ## How to use
 
