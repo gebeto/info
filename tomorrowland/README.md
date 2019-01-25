@@ -29,4 +29,6 @@ https://static-feed.tomorrowland.com/settings-production.json?t=25806610
 }
 ```
 
-The Tomorrowland First 20 Sale has not started yet.<br>The First 20 Sale for Tomorrowland 2019 starts January 22nd, 12h00 (CET).<br>Don't refresh this page or open multiple tabs, you will be queued automatically once the sale starts.
+
+## Shops info
+[Data](https://static-feed.tomorrowland.com/settings-production.json)
