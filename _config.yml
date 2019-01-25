@@ -1,6 +1,5 @@
+theme: jekyll-theme-cayman
 # remote_theme: gebeto/purple-theme
 plugins:
   - jekyll-sitemap
 seo: true
-
-theme: jekyll-theme-cayman
