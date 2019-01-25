@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Tomorrowland</title>
+	<style>
+		table td {
+			padding: 5px;
+		}
+	</style>
 </head>
 <body>
 
-	{% if message %}
-	<h1>Hello {{ message }}!</h1>
-	{% else %}
-	<h1>Hello, World!</h1>
-	{% endif %}
+	<h2 id="update"></h2>
+	
+	<table border="1">
+		<tbody id="shops">
+			
+		</tbody>
+	</table>
 
 	<script src="/static/main.js"></script>
 	

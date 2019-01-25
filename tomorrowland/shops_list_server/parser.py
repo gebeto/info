@@ -2,9 +2,9 @@ import time
 import json
 import requests
 from threading import Thread
+from datetime import datetime
 
 url = "https://static-feed.tomorrowland.com/settings-production.json"
-
 
 class Tomorrowland(object):
 	"""docstring for Tomorrowland"""
@@ -12,23 +12,18 @@ class Tomorrowland(object):
 		super(Tomorrowland, self).__init__()
 		self._timeout = timeout
 		self._url = url
-		self.last_update_time = time.time()
-		self.delta_update_time = 0
+		self.update_time = datetime.now().ctime()
 		self.data = {}
 
 	def _loop(self):
 		response = requests.get(self._url)
 		response_data = response.json()
 		self.data = response_data
-		current_time = time.time()
-		self.delta_update_time = current_time - self.last_update_time
-		self.last_update_time = current_time
+		self.update_time = datetime.now().ctime()
 		time.sleep(self._timeout)
-		json.dump({
-			"last_update": tomorrowland.last_update_time,
-			"delta": tomorrowland.delta_update_time,
-			"shops": self.data.get('shops', []),
-		}, open("static/shops.json", "w"), indent=4)
+		open("static/update.txt", "w").write(self.update_time)
+		json.dump(self.data.get('shops', []), open("static/shops.json", "w"), indent=4)
+		json.dump(self.data, open("static/all.json", "w"), indent=4)
 
 
 	def loop(self):
