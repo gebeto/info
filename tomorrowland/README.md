@@ -2,7 +2,7 @@
 
  - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
- - Paste these **{{ data }}** and press <kbd>Enter</kbd>
+ - Paste these *{data}* and press <kbd>Enter</kbd>
 <details><summary><strong>{{ data }}</strong></summary>
 <p>
 
@@ -17,7 +17,7 @@ setInterval(fn60sec, 100);
 ## Get your own direct link
  1. Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  2. Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
- 3. Paste these **{{ data }}** and press <kbd>Enter</kbd>
+ 3. Paste these *{data}* and press <kbd>Enter</kbd>
 <details><summary><strong>{{ data }}</strong></summary>
 <p>
 
