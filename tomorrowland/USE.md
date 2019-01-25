@@ -14,12 +14,41 @@ setInterval(fn60sec, 100);
 </details>
 
 
+## Get your own direct link
+ 1. Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
+ 2. Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
+ 3. Paste these **{{ data }}** and press <kbd>Enter</kbd>
+<details><summary><strong>{{ data }}</strong></summary>
+<p>
+
+```javascript
+prompt('your link', document.querySelector('iframe').src);
+```
+
+</p>
+</details>
 
 ## Links
+ - https://queue.paylogic.com/127968/2993/?
+
+ - iframe - https://queue.paylogic.com/127968/2993/?#pld=eJxFj8sOgjAQRX-FdKuQAkHAlX6A7lzohgxtpQ19mLaYEOO_OzUmLu-5Z24yL3JXPsTBghFkT67gXdDwJFui4Y_PK5MzaIdYGFAaUbLUXNhfc5gSL5gz6EzCcuFRKjGMykc5cIhpqOz7Nqd9XlbYPKSzYrCLGb_ypu5o31K6a6u6wxo49yIEbE7gDQQJWVk3WTp0IYIemONps6Nt3SBlKq4Yb2jOKn3A3GKjT-xyJO8P7wFJbQ%253D%253D
+
+ - https://queue.paylogic.com/127968/2993/?#pld=eJxFj8sOgjAQRX-FdKuQAkHAlX6A7lzohgxtpQ19mLaYEOO_OzUmLu-5Z24yL3JXPsTBghFkT67gXdDwJFui4Y_PK5MzaIdYGFAaUbLUXNhfc5gSL5gz6EzCcuFRKjGMykc5cIhpqOz7Nqd9XlbYPKSzYrCLGb_ypu5o31K6a6u6wxo49yIEbE7gDQQJWVk3WTp0IYIemONps6Nt3SBlKq4Yb2jOKn3A3GKjT-xyJO8P7wFJbQ%3D%3D
+
+ - https://queue.paylogic.com/127968/2993/?#pld=eJxFj8sOgjAQRX-FdKuQAkHAlX6A7lzohgxtpQ19mLaYEOO_OzUmLu-5Z24yL3JXPsTBghFkT67gXdDwJFui4Y_PK5MzaIdYGFAaUbLUXNhfc5gSL5gz6EzCcuFRKjGMykc5cIhpqOz7Nqd9XlbYPKSzYrCLGb_ypu5o31K6a6u6wxo49yIEbE7gDQQJWVk3WTp0IYIemONps6Nt3SBlKq4Yb2jOKn3A3GKjT-xyJO8P7wFJbQ%3D%3D
+
+
  - https://worldwide-presale.tomorrowland.com/js/fallback.js
+ - https://queue.paylogic.com/application.js?v=430126
+
  - https://my.tomorrowland.com/shop/worldwidepresale
 
 
+
+## IFRAME
+```javascript
+console.log('https://queue.paylogic.com/127968/2993/?' + encodeURI(decodeURI(location.search.replace('?', '&'))) + encodeURI(decodeURI(location.hash)) + ');
+```
 
 
 
