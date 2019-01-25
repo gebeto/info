@@ -2,6 +2,16 @@
 
  - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
+ - Paste these data and press <kbd>Enter</kbd>
+<details><summary>DATA</summary>
+<p>
+
+```javascript
+setInterval(fn60sec, 100);
+```
+
+</p>
+</details>
 
 
 
@@ -13,7 +23,10 @@
 
 
 
-## V
+## Get json function
+<details><summary>Get json function</summary>
+<p>
+
 ```javascript
 getJSON = function(url, successhandler)
 {
@@ -28,3 +41,6 @@ getJSON = function(url, successhandler)
     request.send();
 };
 ```
+
+</p>
+</details>
