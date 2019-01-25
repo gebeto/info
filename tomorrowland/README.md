@@ -1,14 +1,4 @@
-<ul>
-{% for user in site.data.users %}
-  <li>
-    <a href="https://github.com/{{ user.first_name }}">
-      {{ user.first_name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-
-## How to use
+# How to use
 
  - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
