@@ -29,18 +29,20 @@ ignore = [
 	"https://winterpackages.tomorrowland.com",
 ]
 
+
 def open_url(title, url):
-	print title, "   -", url
+	print(title, "   -", url)
 	ignore.append(url)
 	# os.system("open {}".format(url))
-		
+
 
 def check_shops(data):
 	for shop in data.get('shops', []):
 		url = shop.get('shopUrl')
 		if url in ignore: continue
 		open_url(shop.get('id'), url)
-	
+
+
 def check_sale_info(data):
 	for key, info in data.get('saleInfo', {}).items():
 		url = info.get('shopUrl')
@@ -61,6 +63,7 @@ def check_info_boxes(data):
 
 
 def _loop():
+	print("#")
 	response = requests.get(url)
 	response_data = response.json()
 	check_info_boxes(response_data)
