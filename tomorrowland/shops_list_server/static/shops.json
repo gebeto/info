@@ -1,0 +1,59 @@
+{
+    "shops": [
+        {
+            "shopUrl": "https://friends.winterpackages.tomorrowland.com/", 
+            "conditions": [
+                "acceptedWaitingListOnly_TLW19"
+            ], 
+            "shopType": "iframe_fullscreen", 
+            "id": "waitinglistwinter", 
+            "queryParams": {
+                "token": "first20"
+            }
+        }, 
+        {
+            "shopUrl": "https://rupelverkoop.tomorrowland.com/", 
+            "conditions": [
+                "userHasValue_rupelstreekAccess"
+            ], 
+            "shopType": "iframe_fullscreen", 
+            "id": "rupelstreekshop", 
+            "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=522", 
+            "conditions": [
+                "userHasValue_tester"
+            ], 
+            "shopType": "iframe_fullscreen", 
+            "id": "queuetest", 
+            "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=10610", 
+            "shopType": "iframe_fullscreen", 
+            "id": "failovertest", 
+            "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://queue.paylogic.com/127866/11647", 
+            "conditions": [
+                "userHasValue_first20"
+            ], 
+            "shopType": "redirect", 
+            "id": "first20", 
+            "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=127801&posId=11647", 
+            "conditions": [
+                "userHasValue_friendship"
+            ], 
+            "shopType": "iframe_fullscreen", 
+            "id": "friendship", 
+            "addPld": "hash"
+        }
+    ], 
+    "delta": 1.0708990097045898, 
+    "last_update": 1548402457.983726
+}
