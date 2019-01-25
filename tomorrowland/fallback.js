@@ -16,7 +16,8 @@ getJSON = function(url, successhandler)
     request.send();
 };
 
-fn60sec = function() {
+fn60sec = function()
+{
     getJSON(MsgUrl, function(data) {
         if (typeof data.REDIRECT !== "undefined") {
             window.location.href = data.REDIRECT;
