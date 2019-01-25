@@ -28,6 +28,8 @@ setInterval(fn60sec, 100);
 <summary>Fallback.js</summary>
 <p>
 
+ - Original: [https://worldwide-presale.tomorrowland.com/js/fallback.js](https://worldwide-presale.tomorrowland.com/js/fallback.js)
+
 ```javascript
 var HeaderMsg = document.getElementById("HeaderMsg");
 var PopMsg = document.getElementById("PopUp");
