@@ -1,4 +1,4 @@
-remote_theme: gebeto/purple-theme
+# remote_theme: gebeto/purple-theme
 plugins:
   - jekyll-sitemap
 seo: true
