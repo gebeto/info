@@ -1,0 +1,256 @@
+[
+    {
+        "title": "Erasmus", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190121-first20.jpg", 
+        "buttons": [
+            {
+                "target": "_self", 
+                "url": "/shop/erasmus", 
+                "type": "button", 
+                "id": "tml19erasmus", 
+                "title": "Enter shop"
+            }
+        ], 
+        "descriptionHTML": "<p>Start Sale: Tuesday January 25th,\u00a02019 \u2013 17h00 CET</p><ul><li>You have\u00a020\u00a0minutes to complete your order. If you leave the shop before payment, you can enter the ticket shop again after 30 minutes. In case payment fails, you have to wait 3 hours before you can re-try.</li><li>You can buy tickets for a maximum of 2 persons in total. One ticket needs to be personalized in the name of the ESNcard holder.</li><li>Weekend 1 and Weekend 2 tickets are available.You can order following ticket types:<ul><li>Full Madness Pass</li><li>DreamVille Magnificent Greens Package</li><li>DreamVille Magnificent Greens 1P Tent Package</li><li>DreamVille Magnificent Greens 2P Tent Package</li></ul></li><li>First in, First served applies. Be aware tickets are limited.</li><li>All prices are Pre-sale prices.</li><li>It is not possible to change the ticket type (or weekend) after purchase.</li><li>All orders must be paid before January 31st,\u00a02019 \u2013 17h00 CET.</li><li>Before receiving your confirmation e-tickets, you will need to personalize your tickets. Personalization is possible between January 30th,\u00a02019 and February 3th, 2019.</li></ul>", 
+        "conditions": [
+            "userHasValue_erasmusAccess"
+        ], 
+        "id": "tl19be-erasmus", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "title": "First 20", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190121-first20.jpg", 
+        "buttons": [
+            {
+                "target": "_self", 
+                "url": "/shop/first20", 
+                "type": "button", 
+                "id": "tml19first20", 
+                "title": "Enter shop"
+            }
+        ], 
+        "descriptionHTML": "<p>Start Sale: Tuesday January 22nd, 2019 \u2013 12h00 CET</p><ul><li>You have 20 minutes to complete your order. If you leave the shop before payment, you can enter the ticket shop again after 30 minutes. In case payment fails, you have to wait 3 hours before you can re-try.</li><li>You can buy tickets for a maximum of 4 persons in total. You will need to complete your order at once. It is not possible to order tickets twice.</li><li>Full Madness Pass and some DreamVille Packages have limited capacity. First in, first served principle is applied.</li><li>All prices are Worldwide Ticket Sale prices.</li><li>It is not possible to change the ticket type (or weekend) after purchase.</li><li>Before receiving your confirmation e-tickets, you will need to personalize your tickets. Personalization is possible between February 6th 2019 and February 24th 2019</li><li>All orders must be paid before January 29th, 2019 \u2013 12h00 CET.</li></ul>", 
+        "conditions": [
+            "userHasValue_first20"
+        ], 
+        "id": "tl19be-first20", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "title": "Friends Packages", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190121-friendship.jpg", 
+        "buttons": [
+            {
+                "target": "_self", 
+                "title": "SOLD OUT", 
+                "url": "#", 
+                "enabled": false, 
+                "type": "button", 
+                "id": "tml19friendship"
+            }
+        ], 
+        "descriptionHTML": "<p>Start Sale: Tuesday January 22nd, 2019 \u2013 17h00 CET</p><ul><li>You have 20 minutes to complete your order. If you leave the shop before payment, you can enter the ticket shop again after 30 minutes. In case payment fails, you have to wait 3 hours before you can re-try.</li><li>First in, first served principle is applied. Be aware there is limited availability.</li><li>You are not able to buy more than 1 Friends Package.</li><li>Your order has to be paid immediately. Check your balance and transaction limit before the sale starts. Check if the spending limit of your credit card is high enough and if you are allowed to make international payments (to Belgium).</li><li>Worldwide Ticket Sale Prices apply.</li><li>It is not possible to change the ticket type (or weekend) after purchase.</li><li>Before receiving your confirmation e-tickets, you will need to personalize your tickets. Personalization is possible between February 6th 2019 and February 24th 2019</li><li>All orders must be paid before January 29th, 2019 \u2013 17h00 CET.</li></ul>", 
+        "conditions": [
+            "userHasValue_friendship"
+        ], 
+        "id": "tl19be-friendship", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "title": "Ticketverkoop Rupelstreek", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190118-buurtverkopen.jpg", 
+        "buttons": [
+            {
+                "target": "_self", 
+                "title": "SOLD OUT", 
+                "url": "/shop/rupelstreekshop", 
+                "enabled": false, 
+                "type": "button", 
+                "id": "tml19rupel"
+            }
+        ], 
+        "descriptionHTML": "<p>De Rupelstreekticketverkoop voor Tomorrowland 2019 is afgelopen. Alle tickets, gereserveerd voor de Rupelstreek, zijn verkocht.</p>", 
+        "conditions": [
+            "userHasValue_rupelstreekAccess"
+        ], 
+        "id": "tomorrowland2019-rupelstreek", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "headerTitle": "THE BOOK OF WISDOM \u2013 THE RETURN", 
+        "eventType": "default", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20181214-crowd.jpg", 
+        "festivalCode": "TL19BE", 
+        "conditions": [
+            "notRegisteredForAnySpecifiedEventsOnly_TL19BE"
+        ], 
+        "headerContentHTML": "<p>Pre-Registration for Tomorrowland Belgium 2019 starts:<br>Saturday \u2013 December 15th \u2013 15h15 CET.<p><strong>TOMORROWLAND BELGIUM 2019</strong><br>Weekend 1:\u00a019 - 21 July 2019<br>Weekend 2:\u00a026 - 28 July 2019</p>", 
+        "countdownTarget": "2018-12-15T15:15:00+01:00", 
+        "fields": [
+            {
+                "name": "weekend", 
+                "title": "Preferred weekend", 
+                "conditions": [
+                    "required"
+                ], 
+                "type": "select", 
+                "placeholder": "Select your preferred weekend", 
+                "options": [
+                    {
+                        "value": "W1", 
+                        "label": "Weekend 1 (19 - 21 July 2019)"
+                    }, 
+                    {
+                        "value": "W2", 
+                        "label": "Weekend 2 (26 - 28 July 2019)"
+                    }, 
+                    {
+                        "value": "NO_PREFERENCE", 
+                        "label": "No preferred weekend"
+                    }
+                ]
+            }, 
+            {
+                "name": "language", 
+                "title": "Preferred language", 
+                "conditions": [
+                    "required"
+                ], 
+                "type": "select", 
+                "placeholder": "Select your preferred language", 
+                "options": [
+                    {
+                        "value": "nl", 
+                        "label": "Nederlands"
+                    }, 
+                    {
+                        "value": "fr", 
+                        "label": "Fran\u00e7ais"
+                    }, 
+                    {
+                        "value": "en", 
+                        "label": "English"
+                    }, 
+                    {
+                        "value": "de", 
+                        "label": "Deutsch"
+                    }, 
+                    {
+                        "value": "es", 
+                        "label": "Espa\u00f1ol"
+                    }
+                ]
+            }
+        ], 
+        "contentHTML": "<div class='block'><p>The first 20 people of each nationality who register will have the possibility to buy 4 Tomorrowland tickets through a dedicated ticket link, before the Worldwide Ticket Sale. Worldwide Ticket Sale prices are applied. The first 20 people will be informed by Tomorrowland before the first sales moment.</p></div>", 
+        "type": "prereg", 
+        "id": "tomorrowland2019-prereg", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "title": "Global Journey Travel Packages", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190118-sale.jpg", 
+        "buttons": [
+            {
+                "target": "_self", 
+                "url": "https://globaljourney.tomorrowland.com", 
+                "type": "button", 
+                "id": "gj19shop", 
+                "title": "Enter shop"
+            }
+        ], 
+        "descriptionHTML": "<p>NOW AVAILABLE</p><p>Global Journey Packages include a Tomorrowland ticket, hotel and/or DreamVille, with or without transport.</p>", 
+        "conditions": [
+            "registeredForAnySpecifiedEventsOnly_TL19BE"
+        ], 
+        "id": "gj19", 
+        "boxTitle": "Tomorrowland Belgium"
+    }, 
+    {
+        "title": "Tomorrowland Winter Package", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20180905-winter-shop.jpg", 
+        "buttons": [
+            {
+                "url": "https://winterpackages.tomorrowland.com", 
+                "title": "Enter Shop", 
+                "type": "button", 
+                "id": "wlwinter19btnallreadysubscribed", 
+                "target": "_self"
+            }, 
+            {
+                "target": "_self", 
+                "title": "Stay-updated", 
+                "url": "http://waitinglist.tomorrowlandwinter.com", 
+                "type": "button", 
+                "conditions": [
+                    "unsubmittedWaitingListOnly_TLW19"
+                ], 
+                "id": "wlwinter19stayupdated"
+            }
+        ], 
+        "descriptionHTML": "<p>Experience Tomorrowland in a totally new surrounding and during the most magical season of the year\u2026 Winter.</p><p>A Tomorrowland Winter Package includes: Tomorrowland Winter festival ticket \u2013 lodging (hotel, chalet, apartment) - lift and ski pass.</p><p>All previous packages are sold out. Discover new lodging options and packages in the Official Tomorrowland Winter Ticket shop.</p><p>Click Stay-updated if you want to be updated when new packages are available.</p>", 
+        "postSales": true, 
+        "type": "pika", 
+        "id": "winter2019subscribedtowaitinglist", 
+        "boxTitle": "Tomorrowland Winter"
+    }, 
+    {
+        "title": "FASHION FOR THE PEOPLE OF TOMORROW", 
+        "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20181212-tmlbytomorrowland.jpg", 
+        "buttons": [
+            {
+                "url": "https://store.tomorrowland.com/?utm_source=my.tomorrowland.com&utm_medium=referral&utm_campaign=mytml&utm_content=bttn", 
+                "title": "SHOP NOW", 
+                "type": "button", 
+                "id": "storelink", 
+                "target": "_blank"
+            }
+        ], 
+        "descriptionHTML": "<p>Discover the Official Tomorrowland apparel and accessories in the TML by Tomorrowland Collection. Wear good vibes and positive energy all year round, and spread the warm feeling of Love, Peace and unity across the world.<br>Happiness awaits in every fiber\u2026</p>", 
+        "postSales": true, 
+        "id": "tmlfashion", 
+        "boxTitle": "TML BY TOMORROWLAND"
+    }, 
+    {
+        "linkTitle": "Discover video - audio - photo", 
+        "dividerLabelHTML": "POPULAR ON <strong>365</strong>", 
+        "description": "Experience the most memorable Tomorrowland moments all year long.", 
+        "linkURL": "https://365.tomorrowland.com", 
+        "postSales": true, 
+        "media": [
+            {
+                "url": "https://365.tomorrowland.com/category/tomorrowland-2018/434", 
+                "ctaText": "WATCH NOW", 
+                "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20180725-365-livesets-2018.jpg", 
+                "type": "video", 
+                "title": "Tomorrowland 2018 Livesets"
+            }, 
+            {
+                "url": "https://365.tomorrowland.com/category/video/Sunnery-James-amp-Ryan-Marciano-Tomorrowland-Belgium-2018-WE1/2fbf5980bb0020ef992ba4bcabbe5ac7/434", 
+                "imageUrl": "https://365.tomorrowland.com/cache/e7e6d47ed355f9550da2bbe6e8b41678.jpg", 
+                "type": "video", 
+                "length": "57:27", 
+                "title": "Sunnery James & Ryan Marciano | Tomorrowland Belgium 2018 - WE1"
+            }, 
+            {
+                "url": "https://365.tomorrowland.com/category/video/Netsky-Tomorrowland-Belgium-2018-WE1/6b92d120557159edc6a842b8923334ec/434", 
+                "imageUrl": "https://365.tomorrowland.com/cache/04d4352b0ef487127e68e3b02dce1e11.jpg", 
+                "type": "video", 
+                "length": "57:07", 
+                "title": "Netsky | Tomorrowland Belgium 2018 - WE1"
+            }, 
+            {
+                "url": "https://365.tomorrowland.com/category/video/Hardwell-Tomorrowland-Belgium-2018-WE1/1988a7ea5ef18e08b7beb99ce84b3c6c/434", 
+                "imageUrl": "https://365.tomorrowland.com/cache/a927dc91729e8feb436bed2ed47fb77d.jpg", 
+                "type": "video", 
+                "length": "58:16", 
+                "title": "Hardwell | Tomorrowland Belgium 2018 - WE1"
+            }
+        ], 
+        "icon": "365", 
+        "type": "media", 
+        "id": "365", 
+        "boxTitle": "Relive Tomorrowland"
+    }
+]

@@ -30,8 +30,14 @@
     }, 
     {
         "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=10610", 
-        "shopType": "iframe_fullscreen", 
+        "shopType": "redirect", 
         "id": "failovertest", 
+        "addPld": "hash"
+    }, 
+    {
+        "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=10610", 
+        "shopType": "iframe_fullscreen", 
+        "id": "frametest", 
         "addPld": "hash"
     }, 
     {
@@ -50,6 +56,12 @@
         ], 
         "shopType": "iframe_fullscreen", 
         "id": "friendship", 
+        "addPld": "hash"
+    }, 
+    {
+        "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=127829&posId=11647", 
+        "shopType": "redirect", 
+        "id": "erasmus", 
         "addPld": "hash"
     }
 ]

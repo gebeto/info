@@ -126,8 +126,14 @@
         }, 
         {
             "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=10610", 
-            "shopType": "iframe_fullscreen", 
+            "shopType": "redirect", 
             "id": "failovertest", 
+            "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=102701&posId=10610", 
+            "shopType": "iframe_fullscreen", 
+            "id": "frametest", 
             "addPld": "hash"
         }, 
         {
@@ -147,9 +153,34 @@
             "shopType": "iframe_fullscreen", 
             "id": "friendship", 
             "addPld": "hash"
+        }, 
+        {
+            "shopUrl": "https://sso-queue.tomorrowland.com/?eventId=127829&posId=11647", 
+            "shopType": "redirect", 
+            "id": "erasmus", 
+            "addPld": "hash"
         }
     ], 
     "infoBoxes": [
+        {
+            "title": "Erasmus", 
+            "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190121-first20.jpg", 
+            "buttons": [
+                {
+                    "target": "_self", 
+                    "url": "/shop/erasmus", 
+                    "type": "button", 
+                    "id": "tml19erasmus", 
+                    "title": "Enter shop"
+                }
+            ], 
+            "descriptionHTML": "<p>Start Sale: Tuesday January 25th,\u00a02019 \u2013 17h00 CET</p><ul><li>You have\u00a020\u00a0minutes to complete your order. If you leave the shop before payment, you can enter the ticket shop again after 30 minutes. In case payment fails, you have to wait 3 hours before you can re-try.</li><li>You can buy tickets for a maximum of 2 persons in total. One ticket needs to be personalized in the name of the ESNcard holder.</li><li>Weekend 1 and Weekend 2 tickets are available.You can order following ticket types:<ul><li>Full Madness Pass</li><li>DreamVille Magnificent Greens Package</li><li>DreamVille Magnificent Greens 1P Tent Package</li><li>DreamVille Magnificent Greens 2P Tent Package</li></ul></li><li>First in, First served applies. Be aware tickets are limited.</li><li>All prices are Pre-sale prices.</li><li>It is not possible to change the ticket type (or weekend) after purchase.</li><li>All orders must be paid before January 31st,\u00a02019 \u2013 17h00 CET.</li><li>Before receiving your confirmation e-tickets, you will need to personalize your tickets. Personalization is possible between January 30th,\u00a02019 and February 3th, 2019.</li></ul>", 
+            "conditions": [
+                "userHasValue_erasmusAccess"
+            ], 
+            "id": "tl19be-erasmus", 
+            "boxTitle": "Tomorrowland Belgium"
+        }, 
         {
             "title": "First 20", 
             "imageUrl": "https://s3.amazonaws.com/aws-website-static-feedtomorrowlandcom-6gh5g/images/20190121-first20.jpg", 

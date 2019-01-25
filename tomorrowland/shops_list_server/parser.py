@@ -23,6 +23,7 @@ class Tomorrowland(object):
 		time.sleep(self._timeout)
 		open("static/update.txt", "w").write(self.update_time)
 		json.dump(self.data.get('shops', []), open("static/shops.json", "w"), indent=4)
+		json.dump(self.data.get('infoBoxes', []), open("static/infoBoxes.json", "w"), indent=4)
 		json.dump(self.data, open("static/all.json", "w"), indent=4)
 
 

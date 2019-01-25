@@ -1,3 +1,9 @@
+## WW Presale
+```url
+https://scale.fallback.tomorrowland.com/wwpresale.json?309690129
+```
+
+
 ## Global Journey Check URL
 
 ```url
