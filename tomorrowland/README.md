@@ -1,9 +1,3 @@
-# Owner is *{{ data.users }}*
-# Owner is {{ data.users }}
-# Owner is *{{ data.users[0].first_name }}*
-# Owner is {{ data.users[0].first_name }}
-
-
 <ul>
 {% for user in site.data.users %}
   <li>
