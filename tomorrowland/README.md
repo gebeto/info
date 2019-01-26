@@ -1,16 +1,16 @@
 # How to use
 
- - Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
- - Open developer console:
+1. Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
+2. Open developer console:
     - **Right click on page -> Inspect -> Console**
     - MacOS <kbd>Cmd + Option + J</kbd>
     - Windows <kbd>Alt + Shift + J</kbd>
- - Paste these **{code}** and press <kbd>Enter</kbd>
+3. Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
 window.open('your link', document.querySelector('iframe').src);
 ```
- - Open developer console on that new window
- - Paste these **{code}** and press <kbd>Enter</kbd>
+4. Open developer console on that new window
+5. Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
 var INJECT_SCRIPT = document.createElement('script');
 INJECT_SCRIPT.src = 'https://gebeto.github.io/info/tomorrowland/checker.js';
