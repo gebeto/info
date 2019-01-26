@@ -9,7 +9,7 @@ while 1:
 	v = int(time.time())
 	response = requests.get("{}?{}".format(msg_url, v)).json()
 	print v, response
-	redirect = response.get('REDIRECT', 'https://google.com')
+	redirect = response.get('REDIRECT')
 	if redirect and not redirect in ignores:
 		os.system("open {}".format(redirect))
 		ignores.append(redirect)
