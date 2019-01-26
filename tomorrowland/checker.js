@@ -98,7 +98,7 @@ function CHECKER_INIT(e) {
     //     e.gaManager.sendGAPage(e.queueData.content.active_page_name)
     // }),
     t();
-    console.log("%c!!!SLAVIK IS HERE!!!", 'color: red; font-size: 40px;');
+    console.log("%c!!!SLAVIK IS HERE!!!", 'color: green; font-size: 40px;');
 }
 
 var CH = CHECKER_INIT(window.PL);
