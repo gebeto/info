@@ -14,6 +14,11 @@ setInterval(fn60sec, 100);
 {% endhighlight %}
 
 
+```zsh
+➜  info git:(master) echo 'Hello world!'
+```
+
+
 ## Get your own direct link
  1. Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  2. Open developer console (<kbd>ctrl + i</kbd>) (<kbd>⌘ + i</kbd>)
