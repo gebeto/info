@@ -7,7 +7,7 @@
     - Windows <kbd>Alt + Shift + J</kbd>
 3. Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
-window.open('your link', document.querySelector('iframe').src);
+window.open(document.querySelector('iframe').src);
 ```
 4. Open developer console on that new window
 5. Paste these **{code}** and press <kbd>Enter</kbd>
