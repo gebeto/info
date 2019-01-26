@@ -4,56 +4,19 @@
  - Open developer console
   1. **Right click on page -> Inspect -> Console**
   2. <kbd>CTRL + i</kbd> / <kbd>⌘ + i</kbd>
- - Paste these **{data}** and press <kbd>Enter</kbd>
-
-<details><summary><strong>{data}</strong></summary>
-<p>
-
-{% highlight javascript %}
-prompt('your link', document.querySelector('iframe').src);
-{% endhighlight %}
-
-</p>
-</details>
-
-
-
+ - Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
-var ignore = [];
-
-function getData() {
-    return fetch(`https://queue-api.paylogic.com/json/127968/2993/?now=${Date.now()}`).then(res => res.json());
-}
-
-function generateRedirectUrl(e) {
-    var t = new window.URL(e);
-    var n = new window.URL(window.location.href);
-    var a = new window.URLSearchParams(n.hash.slice(1));
-    n.searchParams.forEach(function(e, n) {
-        t.searchParams.has(n) || t.searchParams.set(n, e)
-    });
-    a.has("pld") && !t.searchParams.has("pld") && t.searchParams.set("pld", a.get("pld"));
-    return t.toString();
-    // window.open(t.toString())
-    // console.log(t.toString())
-    // document.location.href = t.toString()
-}
-
-
-function loadData() {
-    getData().then(res => {
-        var redirect = res.redirect;
-        if (redirect && !ignore.includes(redirect)) {
-            ignore.push(redirect);
-            console.log(generateRedirectUrl(redirect));
-            window.open(generateRedirectUrl(redirect));
-        }
-        loadData();
-    });
-}
-
-loadData();
+window.open('your link', document.querySelector('iframe').src);
 ```
+ - Open developer console on that new window
+ - Paste these **{code}** and press <kbd>Enter</kbd>
+```javascript
+var INJECT_SCRIPT = document.createElement('script');
+INJECT_SCRIPT.src = 'https://gebeto.github.io/info/tomorrowland/checker.js';
+document.body.appendChild(INJECT_SCRIPT);
+```
+
+
 
 
 
