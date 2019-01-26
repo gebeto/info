@@ -1,7 +1,9 @@
 # How to use
 
- - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
- - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
+ - Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
+ - Open developer console
+  1. **Right click on page -> Inspect -> Console**
+  2. <kbd>CTRL + i</kbd> / <kbd>⌘ + i</kbd>
  - Paste these **{data}** and press <kbd>Enter</kbd>
 
 <details><summary><strong>{data}</strong></summary>
