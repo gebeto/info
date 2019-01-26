@@ -28,6 +28,21 @@ document.body.appendChild(INJECT_SCRIPT);
     - Windows <kbd>Alt + Shift + J</kbd>
 3. Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
-setInterval(fn60sec, 100);
+getJSON = function(url, successhandler)
+{
+    // var version = Math.floor(new Date().getTime() / 5000);
+    var version = Math.floor(new Date().getTime() / 100);
+    var request = new XMLHttpRequest();
+    request.open('GET', url + "?" + version, true);
+    request.onload = function() {
+        if (request.status >= 200 && request.status < 400) {
+            successhandler(JSON.parse(request.responseText));
+        }
+    };
+    request.send();
+};
+
+
+setInterval(fn60sec, 200);
 ```
 
