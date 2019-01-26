@@ -1,6 +1,6 @@
 # How to use #1
 
-1. Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
+1. Open <a href="https://my.tomorrowland.com/shop/worldwidepresale" target="_blank">https://my.tomorrowland.com/shop/worldwidepresale</a> page
 2. Open developer console:
     - **Right click on page -> Inspect -> Console**
     - MacOS <kbd>Cmd + Option + J</kbd>
@@ -23,8 +23,7 @@ document.body.appendChild(INJECT_SCRIPT);
 
 
 # How to use #2
-
-1. Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
+1. Open <a href="https://my.tomorrowland.com/shop/worldwidepresale" target="_blank">https://my.tomorrowland.com/shop/worldwidepresale</a> page
 2. Open developer console:
     - **Right click on page -> Inspect -> Console**
     - MacOS <kbd>Cmd + Option + J</kbd>
