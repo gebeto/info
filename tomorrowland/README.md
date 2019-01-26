@@ -6,12 +6,14 @@
     - MacOS <kbd>Cmd + Option + J</kbd>
     - Windows <kbd>Alt + Shift + J</kbd>
 3. Paste these **{code}** and press <kbd>Enter</kbd>
+
 ```javascript
 window.open(document.querySelector('iframe').src);
-
 ```
+
 4. Open developer console on that new window
 5. Paste these **{code}** and press <kbd>Enter</kbd>
+
 ```javascript
 var INJECT_SCRIPT = document.createElement('script');
 INJECT_SCRIPT.src = 'https://gebeto.github.io/info/tomorrowland/checker.js';
