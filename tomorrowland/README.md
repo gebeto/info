@@ -4,7 +4,7 @@
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
  - Paste these **{data}** and press <kbd>Enter</kbd>
 
-<details><summary><strong>**{data}**</strong></summary>
+<details><summary><strong>{data}</strong></summary>
 <p>
 
 {% highlight javascript %}
@@ -13,6 +13,45 @@ prompt('your link', document.querySelector('iframe').src);
 
 </p>
 </details>
+
+
+
+```javascript
+var ignore = [];
+
+function getData() {
+    return fetch(`https://queue-api.paylogic.com/json/127968/2993/?now=${Date.now()}`).then(res => res.json());
+}
+
+function generateRedirectUrl(e) {
+    var t = new window.URL(e);
+    var n = new window.URL(window.location.href);
+    var a = new window.URLSearchParams(n.hash.slice(1));
+    n.searchParams.forEach(function(e, n) {
+        t.searchParams.has(n) || t.searchParams.set(n, e)
+    });
+    a.has("pld") && !t.searchParams.has("pld") && t.searchParams.set("pld", a.get("pld"));
+    return t.toString();
+    // window.open(t.toString())
+    // console.log(t.toString())
+    // document.location.href = t.toString()
+}
+
+
+function loadData() {
+    getData().then(res => {
+        var redirect = res.redirect;
+        if (redirect && !ignore.includes(redirect)) {
+            ignore.push(redirect);
+            console.log(generateRedirectUrl(redirect));
+            window.open(generateRedirectUrl(redirect));
+        }
+        loadData();
+    });
+}
+
+loadData();
+```
 
 
 
