@@ -3,13 +3,15 @@
  - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
  - Paste these *{data}* and press <kbd>Enter</kbd>
-<details><summary><strong>{{ data }}</strong></summary>
-
 ```javascript
 setInterval(fn60sec, 100);
 ```
 
-</details>
+{% highlight javascript %}
+```javascript
+setInterval(fn60sec, 100);
+```
+{% endhighlight %}
 
 
 ## Get your own direct link
