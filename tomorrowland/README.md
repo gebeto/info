@@ -8,9 +8,7 @@ setInterval(fn60sec, 100);
 ```
 
 {% highlight javascript %}
-```javascript
 setInterval(fn60sec, 100);
-```
 {% endhighlight %}
 
 
