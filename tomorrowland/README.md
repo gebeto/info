@@ -2,19 +2,18 @@
 
  - Open your [WORLD WIDE PRESALE](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
- - Paste these *{data}* and press <kbd>Enter</kbd>
-```javascript
-setInterval(fn60sec, 100);
-```
+ - Paste these **{data}** and press <kbd>Enter</kbd>
+
+<details><summary><strong>**{data}**</strong></summary>
+<p>
 
 {% highlight javascript %}
-setInterval(fn60sec, 100);
+prompt('your link', document.querySelector('iframe').src);
 {% endhighlight %}
 
+</p>
+</details>
 
-```zsh
-➜  info git:(master) echo 'Hello world!'
-```
 
 
 ## Get your own direct link
