@@ -39,7 +39,7 @@ function CHECKER_INIT(e) {
             now: (new Date).getTime() - 100
         };
         // console.clear();
-    	console.log("%cChecking Data %s", 'color: red; font-size: 30px;', n.now);
+    	console.log("%cChecking Data %s", 'color: green; font-size: 30px;', n.now);
         t && (n.token = t),
         e.queueData || (f = setTimeout(e.pageManager.loadingMessage, 1500)),
         qwest.get(e.refreshUrl, n).then(function(e, t) {
@@ -98,7 +98,7 @@ function CHECKER_INIT(e) {
     //     e.gaManager.sendGAPage(e.queueData.content.active_page_name)
     // }),
     t();
-    console.log("%c!!!SLAVIK IS HERE!!!", 'color: green; font-size: 40px;');
+    console.log("%c!!!SLAVIK IS HERE!!!", 'color: red; font-size: 40px;');
 }
 
 var CH = CHECKER_INIT(window.PL);
