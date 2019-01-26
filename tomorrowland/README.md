@@ -4,13 +4,11 @@
  - Open developer console (<kbd>ctrl</kbd><kbd>i</kbd>) (<kbd>⌘</kbd><kbd>i</kbd>)
  - Paste these *{data}* and press <kbd>Enter</kbd>
 <details><summary><strong>{{ data }}</strong></summary>
-<p>
 
 ```javascript
 setInterval(fn60sec, 100);
 ```
 
-</p>
 </details>
 
 
