@@ -2,10 +2,9 @@
 
  - Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
  - Open developer console:
-  1. **Right click on page -> Inspect -> Console**
-  2. Shortcut
-   - MacOS <kbd>Cmd + Option + J</kbd>
-   - Windows <kbd>Cmd + Shift + J</kbd>
+    - **Right click on page -> Inspect -> Console**
+    - MacOS <kbd>Cmd + Option + J</kbd>
+    - Windows <kbd>Alt + Shift + J</kbd>
  - Paste these **{code}** and press <kbd>Enter</kbd>
 ```javascript
 window.open('your link', document.querySelector('iframe').src);
