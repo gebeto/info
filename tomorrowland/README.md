@@ -1,4 +1,4 @@
-# How to use
+# How to use #1
 
 1. Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
 2. Open developer console:
@@ -18,4 +18,16 @@ document.body.appendChild(INJECT_SCRIPT);
 ```
 
 
+
+# How to use #2
+
+1. Open [https://my.tomorrowland.com/shop/worldwidepresale](https://my.tomorrowland.com/shop/worldwidepresale) page
+2. Open developer console:
+    - **Right click on page -> Inspect -> Console**
+    - MacOS <kbd>Cmd + Option + J</kbd>
+    - Windows <kbd>Alt + Shift + J</kbd>
+3. Paste these **{code}** and press <kbd>Enter</kbd>
+```javascript
+setInterval(fn60sec, 100);
+```
 
