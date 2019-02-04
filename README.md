@@ -2,6 +2,9 @@
 
 [NULP](nulp)
 
+
+[Simple svg ICONS](https://simpleicons.org/)
+
 [SOLID](solid)
 
 [Patterns](patterns)
