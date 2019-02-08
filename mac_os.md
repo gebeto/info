@@ -19,15 +19,13 @@
 <table>
  <tbody>
   <tr>
-		<th colspan="7">Development</th>
+		<th colspan="4">Development</th>
   </tr>
   <tr>
   	<td>Sublime Text <a target="_blank" href="https://www.sublimetext.com">Download</a></td>
-  	<td>VSCode <a target="_blank" href="https://code.visualstudio.com">Download</a></td>
   	<td>Sourcetree <a target="_blank" href="https://www.sourcetreeapp.com">Download</a></td>
   	<td>XCode <a target="_blank" href="https://developer.apple.com/xcode">Download</a></td>
   	<td>CyberDuck <a target="_blank" href="https://cyberduck.io">Download</a></td>
-  	<td>KodeLife <a target="_blank" href="https://hexler.net/software/kodelife">Download</a></td>
   </tr>
  </tbody>
 </table>
@@ -35,7 +33,7 @@
 <table>
  <tbody>
   <tr>
-		<th colspan="6">Graphic</th>
+		<th colspan="5">Graphic</th>
   </tr>
   <tr>
   	<td>Sketch <a target="_blank" href="https://www.sketchapp.com">Download</a></td>
