@@ -5,62 +5,28 @@
 
 
   <tr>
-  	<th rowspan="7">Internet</th>
+  	<th colspan="7">Internet</th>
   </tr>
   <tr>
-  	<td>
-		Chrome
-		<a target="_blank" href="https://www.google.com/chrome">Download</a>
-	</td>
-  </tr>
-  <tr>
-  	<td>Firefox</td>
-  	<td><a target="_blank" href="https://www.mozilla.org/ru/firefox/new">Download</a></td>
-  </tr>
-  <tr>
-  	<td>Wunderlist</td>
-  	<td><a target="_blank" href="https://www.wunderlist.com">Download</a></td>
-  </tr>
-  <tr>
-  	<td>Spark</td>
-  	<td><a target="_blank" href="https://sparkmailapp.com">Download</a></td>
-  </tr>
-  <tr>
-  	<td>Telegram</td>
-  	<td><a target="_blank" href="https://telegram.org">Download</a></td>
-  </tr>
-  <tr>
-  	<td>Charles</td>
-  	<td><a target="_blank" href="https://www.charlesproxy.com">Download</a></td>
+  	<td>Chrome <a target="_blank" href="https://www.google.com/chrome">Download</a></td>
+  	<td>Firefox <a target="_blank" href="https://www.mozilla.org/ru/firefox/new">Download</a></td>
+  	<td>Wunderlist <a target="_blank" href="https://www.wunderlist.com">Download</a></td>
+  	<td>Spark <a target="_blank" href="https://sparkmailapp.com">Download</a></td>
+  	<td>Telegram <a target="_blank" href="https://telegram.org">Download</a></td>
+  	<td>Charles <a target="_blank" href="https://www.charlesproxy.com">Download</a></td>
   </tr>
 
 
   <tr>
-    <th rowspan="7">Development</th>
+    <th colspan="7">Development</th>
   </tr>
   <tr>
-  	<td>Sublime Text</td>
-  	<td><a target="_blank" href="https://www.sublimetext.com">Download</a></td>
-  </tr>
-  <tr>
-  	<td>VSCode</td>
-  	<td><a target="_blank" href="https://code.visualstudio.com">Download</a></td>
-  </tr>
-  <tr>
-  	<td>Sourcetree</td>
-  	<td><a target="_blank" href="https://www.sourcetreeapp.com">Download</a></td>
-  </tr>
-  <tr>
-  	<td>XCode</td>
-  	<td><a target="_blank" href="https://developer.apple.com/xcode">Download</a></td>
-  </tr>
-  <tr>
-  	<td>CyberDuck</td>
-  	<td><a target="_blank" href="https://cyberduck.io">Download</a></td>
-  </tr>
-  <tr>
-  	<td>KodeLife</td>
-  	<td><a target="_blank" href="https://hexler.net/software/kodelife">Download</a></td>
+  	<td>Sublime Text <a target="_blank" href="https://www.sublimetext.com">Download</a></td>
+  	<td>VSCode <a target="_blank" href="https://code.visualstudio.com">Download</a></td>
+  	<td>Sourcetree <a target="_blank" href="https://www.sourcetreeapp.com">Download</a></td>
+  	<td>XCode <a target="_blank" href="https://developer.apple.com/xcode">Download</a></td>
+  	<td>CyberDuck <a target="_blank" href="https://cyberduck.io">Download</a></td>
+  	<td>KodeLife <a target="_blank" href="https://hexler.net/software/kodelife">Download</a></td>
   </tr>
  
 
