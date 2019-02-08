@@ -8,8 +8,10 @@
   	<th rowspan="7">Internet</th>
   </tr>
   <tr>
-  	<td>Chrome</td>
-  	<td><a target="_blank" href="https://www.google.com/chrome">Download</a></td>
+  	<td>
+		Chrome
+		<a target="_blank" href="https://www.google.com/chrome">Download</a>
+	</td>
   </tr>
   <tr>
   	<td>Firefox</td>
@@ -34,7 +36,7 @@
 
 
   <tr>
-    <th rowspan="7">Coding</th>
+    <th rowspan="7">Development</th>
   </tr>
   <tr>
   	<td>Sublime Text</td>
