@@ -13,7 +13,11 @@
   	<td>Telegram <a target="_blank" href="https://telegram.org">Download</a></td>
   	<td>Charles <a target="_blank" href="https://www.charlesproxy.com">Download</a></td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="7">Development</th>
   </tr>
@@ -25,7 +29,11 @@
   	<td>CyberDuck <a target="_blank" href="https://cyberduck.io">Download</a></td>
   	<td>KodeLife <a target="_blank" href="https://hexler.net/software/kodelife">Download</a></td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="6">Graphic</th>
   </tr>
@@ -36,14 +44,22 @@
   	<td>Pixelmator <a target="_blank" href="https://www.pixelmator.com/pro">Download</a></td>
   	<td>Zeplin <a target="_blank" href="https://support.zeplin.io/quick-start/downloading-mac-and-windows-apps">Download</a></td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="1">Other</th>
   </tr>
   <tr>
   	<td>VLC <a target="_blank" href="https://www.videolan.org/index.html">Download</a></td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="9">CLI</th>
   </tr>
@@ -57,7 +73,11 @@
 		<td>Heroku <a target="_blank" href="https://devcenter.heroku.com/articles/heroku-cli">Download</a></td>
 		<td>ngrok <a target="_blank" href="https://ngrok.com">Download</a></td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="2">CLI tools</th>
   </tr>
@@ -65,7 +85,11 @@
 		<td>unrar</td>
 		<td>wget</td>
   </tr>
+ </tbody>
+</table>
 
+<table>
+ <tbody>
   <tr>
 		<th colspan="4">NPM tools</th>
 	</tr>
@@ -75,6 +99,5 @@
 		<td>create-react-app</td>
 		<td>coursehunters-cli</td>
   </tr>
-
  </tbody>
 </table>
