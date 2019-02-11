@@ -5,6 +5,11 @@
 
 ### Categories
 ```
+# Categories
+https://api.dm-development.net/audiobooks/lb00/categories.json
+```
+
+```
 # All
  > https://api.dm-development.net/audiobooks/lb00/all.json
 
