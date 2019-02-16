@@ -1,3 +1,13 @@
+## Utils
+### Change dock speed
+```sh
+# delay
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+
+# speed
+defaults write com.apple.dock autohide-time-modifier -float 0.4; killall Dock
+```
+
 ## Applications
 
 <h2>Internet</h2>
