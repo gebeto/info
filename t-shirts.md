@@ -1,4 +1,4 @@
 # Awesome t-shirts
 
 [Threadless](https://www.threadless.com)
-[CottonBureau﻿](https://cottonbureau.com)
+[Cottonbureau](https://cottonbureau.com)
