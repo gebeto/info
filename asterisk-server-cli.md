@@ -68,9 +68,9 @@ disconnect () {
 	echo 'Please enter sudo password for unbinding USB:';
 	if [ $# == 2 ];
 	then
-		echo $2 | sudo tee /sys/bus/usb/drivers/usb/unbind;
+		echo $2 | sudo tee /sys/bus/usb/drivers/usb/unbind > /dev/null;
 	else
-		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind;
+		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind > /dev/null;
 	fi
 	loader 'UNBDING' 100 '\n'
 }
@@ -79,19 +79,19 @@ connect () {
 	loader 'BINDING' 0
 	if [ $# == 2 ];
 	then
-		echo $2 | sudo tee /sys/bus/usb/drivers/usb/bind;
+		echo $2 | sudo tee /sys/bus/usb/drivers/usb/bind > /dev/null;
 	else
-		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/bind;
+		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/bind > /dev/null;
 	fi
 	loader 'BINDING' 100 '\n'
 }
 
 reset () {
 
-	echo 'Resetting' $2;
+	echo 'Resetting' $1 $2;
 	echo;
 
-	disconnect $2;
+	disconnect $1 $2;
 
 	loader 'WAITING' 0;
 	loader 'WAITING' 12;
@@ -103,7 +103,7 @@ reset () {
 	loader 'WAITING' 99;
 	loader 'WAITING' 100 '\n';
 
-	connect $1;
+	connect $1 $2;
 	
 	echo -ne '\nDONE!\n';
 }
