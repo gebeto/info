@@ -1,3 +1,10 @@
+---
+title: Part 1
+parent: Webpack + TypeScript + React
+nav_order: 1
+---
+
+
 # webpack + TypeScript + React: Part 1
 
 Exploring moving from *ES2015* to *TypeScript* for frontend development with

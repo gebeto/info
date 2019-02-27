@@ -1,3 +1,10 @@
+---
+title: Part 3
+parent: Webpack + TypeScript + React
+nav_order: 1
+---
+
+
 # webpack + TypeScript + React: Part 3
 
 We continue to explore this development environment; including linting.

@@ -1,3 +1,10 @@
+---
+title: Part 2
+parent: Webpack + TypeScript + React
+nav_order: 1
+---
+
+
 # webpack + TypeScript + React: Part 2
 
 Having built our “hello world” *TypeScript* web application, we introduce

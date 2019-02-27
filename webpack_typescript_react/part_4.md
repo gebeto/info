@@ -1,3 +1,10 @@
+---
+title: Part 4
+parent: Webpack + TypeScript + React
+nav_order: 1
+---
+
+
 # webpack + TypeScript + React: Part 4
 
 We wrap up this series by exploring testing.
