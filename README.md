@@ -1,7 +1,8 @@
 ---
 title: Home
-has_children: false
 nav_order: 1
+description: "Home page"
+permalink: /
 ---
 
 
