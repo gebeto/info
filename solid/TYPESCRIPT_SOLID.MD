@@ -1,3 +1,9 @@
+---
+title: SOLID TypeScript
+parent: SOLID
+nav_order: 1
+---
+
 # S.O.L.I.D in TypeScript
 
 **S.O.L.I.D** is an acronym for the **first five object-oriented design(OOD)

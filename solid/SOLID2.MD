@@ -1,3 +1,9 @@
+---
+title: Solid 2
+parent: SOLID
+nav_order: 1
+---
+
 The 5 SOLID JavaScript (or any language) principles are:
 S – Single Responsibility Principle
 O – Open-Closed Principle
