@@ -1,3 +1,10 @@
+---
+parent: How To
+title: Docker without SUDO
+nav_order: 1
+---
+
+
 # How to use docker without `sudo`
 
 Add the docker group if it doesn't already exist:

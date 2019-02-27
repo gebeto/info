@@ -1,3 +1,10 @@
+---
+parent: Articles
+title: Git Basics
+nav_order: 1
+---
+
+
 ![](https://cdn-images-1.medium.com/max/1000/1*XFPXLVyqY0kDkvzIOaD9kw.png)
 
 # Git Basics: Adding more changes to your last commit

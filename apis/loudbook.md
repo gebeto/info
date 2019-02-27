@@ -1,3 +1,10 @@
+---
+parent: APIs
+title: LoudBook API
+nav_order: 1
+---
+
+
 # LoudBook API
 
 

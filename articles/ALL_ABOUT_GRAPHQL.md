@@ -1,3 +1,10 @@
+---
+parent: Articles
+title: All about GraphQL
+nav_order: 1
+---
+
+
 # GraphQL: Everything You Need to Know
 
 [ORIGINAL](https://medium.com/@weblab_tech/graphql-everything-you-need-to-know-58756ff253d8)

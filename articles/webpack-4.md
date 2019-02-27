@@ -1,3 +1,10 @@
+---
+parent: Articles
+title: Webpack 4
+nav_order: 1
+---
+
+
 # Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode
 
 ![](https://cdn-images-1.medium.com/max/2000/1*dQA3VhfjIQc1DYua6KoLFQ.png)

@@ -1,3 +1,10 @@
+---
+parent: How To
+title: Setup NGINX for connect two servers
+nav_order: 1
+---
+
+
 # Setup server for connect two servers
 
 ```nginx

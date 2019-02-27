@@ -1,3 +1,10 @@
+---
+parent: Articles
+title: TypeScript create-react-app
+nav_order: 1
+---
+
+
 # TypeScript and React using create-react-app: A step-by-step guide to setting up
 your first app
 

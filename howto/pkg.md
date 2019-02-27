@@ -1,3 +1,10 @@
+---
+parent: How To
+title: How to Edit PKG
+nav_order: 1
+---
+
+
 # How to Edit PKG
 
 ## Unpack .pkg
