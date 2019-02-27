@@ -28,6 +28,8 @@ Commands:
     ${green}show${white}                       Show all modems
     ${green}show${purple} <matcher>${white}             Show all modems that contains <matcher>
     ${green}show${purple} -<matcher>${white}            Show all modems that does not contains <matcher>
+    ${green}reset${white}                      Auto Disconnect and Connect USB device (default '1-1')
+    ${green}reset${purple} <device>${white}             Auto Disconnect and Connect USB device with id <device>
     ${green}disconnect${white}                 Disconnect USB device (default '1-1')
     ${green}disconnect${purple} <device>${white}        Disconnect USB device with id '1-1'
     ${green}connect${white}                    Connect USB device (default '1-1')
