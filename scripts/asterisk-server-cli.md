@@ -1,3 +1,10 @@
+---
+parent: Scripts
+title: Asterisk server CLI
+nav_order: 1
+---
+
+
 # Asterisk server CLI
 
 ## Script for simplify interface in asterisk server

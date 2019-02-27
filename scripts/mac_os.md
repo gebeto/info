@@ -1,3 +1,10 @@
+---
+parent: Scripts
+title: MacOS First setup
+nav_order: 1
+---
+
+
 ## Utils
 ### Change dock speed
 ```sh
