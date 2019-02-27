@@ -3,5 +3,5 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-sitemap
 seo: true
-color_scheme: "dark"
+# color_scheme: "dark"
 search_enabled: true
