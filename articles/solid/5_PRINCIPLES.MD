@@ -1,6 +1,6 @@
 ---
-title: 5 Principles
 parent: SOLID
+title: 5 Principles
 nav_order: 1
 ---
 

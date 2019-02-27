@@ -1,6 +1,6 @@
 ---
-title: Solid 2
 parent: SOLID
+title: Solid 2
 nav_order: 1
 ---
 

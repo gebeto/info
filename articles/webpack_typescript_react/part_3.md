@@ -1,6 +1,6 @@
 ---
-title: Part 3
 parent: Webpack + TypeScript + React
+title: Part 3
 nav_order: 1
 ---
 

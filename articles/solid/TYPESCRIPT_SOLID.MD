@@ -1,6 +1,6 @@
 ---
-title: SOLID TypeScript
 parent: SOLID
+title: SOLID TypeScript
 nav_order: 1
 ---
 
