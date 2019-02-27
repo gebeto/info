@@ -63,22 +63,67 @@ usb () {
 	ls /sys/bus/usb/drivers/usb;
 }
 
-disconect () {
+disconnect () {
+	# loader 'UNBINDING' 0;
+	echo 'Please enter sudo password for unbinding USB:';
 	if [ $# == 2 ];
 	then
 		echo $2 | sudo tee /sys/bus/usb/drivers/usb/unbind;
 	else
 		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind;
 	fi
+	loader 'UNBDING' 100 '\n'
 }
 
-conect () {
+connect () {
+	loader 'BINDING' 0
 	if [ $# == 2 ];
 	then
 		echo $2 | sudo tee /sys/bus/usb/drivers/usb/bind;
 	else
 		echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/bind;
 	fi
+	loader 'BINDING' 100 '\n'
+}
+
+reset () {
+
+	echo 'Resetting' $2;
+	echo;
+
+	disconnect $2;
+
+	loader 'WAITING' 0;
+	loader 'WAITING' 12;
+	loader 'WAITING' 25;
+	loader 'WAITING' 38;
+	loader 'WAITING' 54;
+	loader 'WAITING' 68;
+	loader 'WAITING' 86;
+	loader 'WAITING' 99;
+	loader 'WAITING' 100 '\n';
+
+	connect $1;
+	
+	echo -ne '\nDONE!\n';
+}
+
+
+loader () {
+	if [[ $2 -lt 1 ]]; then
+		echo -ne " > $1   [                          ] $2%\r";
+	elif [[ $2 -gt 99 ]]; then
+		echo -ne " > $1   [##########################] $2%\r";
+	else
+		message=$1
+		val=$(expr $2 / 4);
+		spaces=$(expr $val - 25 - 1)
+		s=$(printf "%-${val}s" "#")
+		ss=$(printf "%-${spaces}s" " ")
+		echo -ne " > $1   [${s// /#}${ss// / }] $2%\r";
+	fi
+	echo -ne $3;
+	sleep 1;
 }
 
 
