@@ -19,4 +19,4 @@ nav_order: 3
 |   8  |  21:00  |  22:35 |
 
 
-## [http://lpnu.ua/parttime_schedule?institutecode_selective=ІКНІ&edugrupabr_selective=ПЗ-31з](ПЗ-31з)
+## [ПЗ-31з](http://lpnu.ua/parttime_schedule?institutecode_selective=ІКНІ&edugrupabr_selective=ПЗ-31з)
