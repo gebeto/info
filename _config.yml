@@ -1,7 +1,19 @@
 theme: jekyll-theme-cayman
-remote_theme: pmarsceill/just-the-docs
+remote_theme: gebeto/just-the-docs
 plugins:
   - jekyll-sitemap
-seo: true
 # color_scheme: "dark"
 search_enabled: true
+
+seo: true
+twitter:
+  username: gebeto_js
+  card: summary
+social:
+  name: Slavik Nychkalo
+  links:
+    - https://twitter.com/@gebeto_js
+    - https://www.facebook.com/slavik.nychkalo
+    - https://www.linkedin.com/in/slavik-nychkalo-57452a127
+    - https://github.com/gebeto
+    - https://codepen.io/gebeto
