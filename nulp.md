@@ -17,3 +17,6 @@ nav_order: 3
 |   6  |  17:40  |  19:15 |
 |   7  |  19:20  |  20:55 |
 |   8  |  21:00  |  22:35 |
+
+
+## [http://lpnu.ua/parttime_schedule?institutecode_selective=%D0%86%D0%9A%D0%9D%D0%86&edugrupabr_selective=%D0%9F%D0%97-31%D0%B7](ПЗ-31з)
