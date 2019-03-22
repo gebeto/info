@@ -1,3 +1,9 @@
+---
+parent: How To
+title: Apple photos
+nav_order: 1
+---
+
 
 # How to get all apple shop images
 
