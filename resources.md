@@ -9,8 +9,8 @@ nav_order: 10
 
 ## Design
 
-- [http://spline.one](spline.one)
-- [https://uplabs.com](uplabs.com)
-- [https://dribbble.com](dribbble.com)
-- [https://ui8.net](ui8.net)
-- [https://sketchappsources.com](sketchappsources.com)
+- [spline.one](http://spline.one)
+- [uplabs.com](https://uplabs.com)
+- [dribbble.com](https://dribbble.com)
+- [ui8.net](https://ui8.net)
+- [sketchappsources.com](https://sketchappsources.com)
