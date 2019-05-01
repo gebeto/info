@@ -1,5 +1,5 @@
 ---
-title: НУЛП
+title: NULP
 has_children: false
 nav_order: 11
 ---
