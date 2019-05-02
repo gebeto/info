@@ -9,11 +9,12 @@ nav_order: 1
 
 [https://coursehunters.net](https://coursehunters.net)
 
-| Title                  | Functionality      |
-|------------------------|--------------------|
-| coursehunters-core     | site parsing       |
-| coursehunters-cli      | cli implementation |
-| coursehunters-electron | gui implementation |
+| Title                  | Functionality           |
+|------------------------|-------------------------|
+| coursehunters-core     | site parsing            |
+| coursehunters-cli      | cli implementation      |
+| coursehunters-electron | gui implementation      |
+| coursehunters-telegram | telegram implementation |
 
 
 ## coursehunters-core
@@ -24,3 +25,6 @@ Includes CLI implementation of full `core` functionality.
 
 ## coursehunters-electron
 Includes GUI with electron implementation of full `core` functionality.
+
+## coursehunters-telegram
+Includes Telegram Bot implementation of full `core` functionality.
