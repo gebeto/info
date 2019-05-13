@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "7922553d-2989-4cbb-99e9-c0828770bf36",
+		"name": "Walli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "images",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Sifter-Token",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/?page=1&sort=featured",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "featured"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCategories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Sifter-Token",
+						"type": "text",
+						"value": "{{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/getCategories?page=1&sort=position",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"getCategories"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "position"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCategoryImages",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Sifter-Token",
+						"type": "text",
+						"value": "{{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/getCategoryImages?category_id=90&lang=en&page=1&sort=recent",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"getCategoryImages"
+					],
+					"query": [
+						{
+							"key": "category_id",
+							"value": "90"
+						},
+						{
+							"key": "lang",
+							"value": "en"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "recent"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0f0b6c91-69fa-4d0a-8954-f663c085b9d0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "fe201072-8c6c-4473-9b39-161856f6d7dc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "9549f108-d961-4e87-8469-82a142d9892b",
+			"key": "base",
+			"value": "http://ku.shanga.co/api/v2/images",
+			"type": "string"
+		},
+		{
+			"id": "4a7671cf-38df-4190-a95f-bb2548992cdd",
+			"key": "token",
+			"value": "26e38ade38e93ebd301773f221d4fffd4e6c049a",
+			"type": "string"
+		}
+	]
+}
