@@ -1,11 +1,11 @@
 # Komunalka
 
 | Тип					  | Номер			 | Посилання															   | Ключ                 |
-|:-----------------------:|:----------------:|:-----------------------------------------------------------------------:|:--------------------:|
+|:------------------------|:-----------------|:-----------------------------------------------------------------------:|:---------------------|
 | Львівгаззбут			  | 0900503566	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/lvovgaz)              | LVOVGAZ              |
 | Львівводоканал		  | 8239870710	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/vodokanal-lvov)       | VODOKANAL-LVOV       |
 | Львівенергозбут		  | 1800550537	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/lvovoblenergo)        | LVOVOBLENERGO        |
-| Укртелеком			  | 4600000020436017 | [EasyPay](https://easypay.ua/catalog/mobile/ukrtelecom)                 | UKRTELECOM           |
+| Укртелеком			  | 4600000020436017 | [EasyPay](https://easypay.ua/catalog/mobile/ukrtelecom)                 |                      |
 | Залізничне теплоенергія | 3200010903	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/communal-lvov-merger) | COMMUNAL-LVOV-MERGER |
 | Сигнівка Комуналка	  | 3050197027	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/communal-lvov-merger) | COMMUNAL-LVOV-MERGER |
 
@@ -25,7 +25,7 @@ function getInitData() {
 	}).then(res => res.json());
 }
 
-async function getServiceData(initData, serviceKey, accountNumber) {
+async function getServiceData(row, initData, serviceKey, accountNumber) {
 	const json = await fetch("https://api.easypay.ua/api/genericCommunalFlow/check", {
 		"headers": {
 			"accept":"application/json, text/plain, */*",
@@ -51,6 +51,8 @@ async function getServiceData(initData, serviceKey, accountNumber) {
 	}).then(res => res.json());
 
 	return {
+		row: row,
+		serviceKey: serviceKey,
 		accountInfo: json.accountInfo,
 		products: json.products,
 	}
@@ -59,10 +61,30 @@ async function getServiceData(initData, serviceKey, accountNumber) {
 
 getInitData().then(async (initData) => {
 	const table = document.querySelector('table');
+	const tbody = table.querySelector('tbody');
+	const rows = [...tbody.querySelectorAll('tr')];
 
-	getServiceData(initData, "LVOVGAZ", "0900503566").then(console.log);
-	getServiceData(initData, "VODOKANAL-LVOV", "8239870710").then(console.log);
-	getServiceData(initData, "LVOVOBLENERGO", "1800550537").then(console.log);
-})
+	Promise.all(rows.map(row => {
+		const accountNumber = row.children[1].innerHTML;
+		const serviceKey = row.children[3].innerHTML;
+		if (!serviceKey.trim()) return;
+		return getServiceData(row, initData, serviceKey, accountNumber);
+	}).filter(item => item)).then(datas => {
+		return datas.map(data => {
+			const amountTd = document.createElement('td');
+			amountTd.innerHTML = data.products.map(item => item.paymentAmount).join(', ') + " грн."
+			data.row.appendChild(amountTd);
+			return data.products.reduce((curr, item) => curr + item.paymentAmount, 0)
+		});
+	}).then(ammounts => {
+		const sum = ammounts.reduce((curr, item) => curr + item, 0);
+		const sumRounded = Math.round(sum);
+		console.log(sumRounded);
+
+		const sumRow = document.createElement('tr');
+		sumRow.innerHTML = `<th colspan="2"><h2>Сумма: </h2></th><th colspan="2"><h2>${sumRounded} грн.</h2></th>`;
+		tbody.appendChild(sumRow);
+	});
+});
 
 </script>
