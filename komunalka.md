@@ -67,6 +67,8 @@ getInitData().then(async (initData) => {
 	Promise.all(rows.map(row => {
 		const accountNumber = row.children[1].innerHTML;
 		const serviceKey = row.children[3].innerHTML;
+		const link = row.querySelector('a');
+		link.href += '?account=' + accountNumber;
 		return getServiceData(row, initData, serviceKey, accountNumber);
 	})).then(datas => {
 		return datas.map(data => {
