@@ -2,10 +2,10 @@
 
 | Тип					  | Номер			 | Посилання															   | Ключ                 |
 |:------------------------|:-----------------|:-----------------------------------------------------------------------:|:---------------------|
+| Укртелеком			  | 4600000020436017 | [EasyPay](https://easypay.ua/catalog/mobile/ukrtelecom)                 | UKRTELECOM           |
 | Львівгаззбут			  | 0900503566	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/lvovgaz)              | LVOVGAZ              |
 | Львівводоканал		  | 8239870710	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/vodokanal-lvov)       | VODOKANAL-LVOV       |
 | Львівенергозбут		  | 1800550537	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/lvovoblenergo)        | LVOVOBLENERGO        |
-| Укртелеком			  | 4600000020436017 | [EasyPay](https://easypay.ua/catalog/mobile/ukrtelecom)                 |                      |
 | Залізничне теплоенергія | 3200010903	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/communal-lvov-merger) | COMMUNAL-LVOV-MERGER |
 | Сигнівка Комуналка	  | 3050197027	     | [EasyPay](https://easypay.ua/catalog/utility/lvov/communal-lvov-merger) | COMMUNAL-LVOV-MERGER |
 
@@ -67,15 +67,18 @@ getInitData().then(async (initData) => {
 	Promise.all(rows.map(row => {
 		const accountNumber = row.children[1].innerHTML;
 		const serviceKey = row.children[3].innerHTML;
-		if (!serviceKey.trim()) return;
 		return getServiceData(row, initData, serviceKey, accountNumber);
-	}).filter(item => item)).then(datas => {
+	})).then(datas => {
 		return datas.map(data => {
+			if (!data.products) {
+				console.log('IGNORE', data)
+				return;
+			}
 			const amountTd = document.createElement('td');
 			amountTd.innerHTML = data.products.map(item => item.paymentAmount).join(', ') + " грн."
 			data.row.appendChild(amountTd);
 			return data.products.reduce((curr, item) => curr + item.paymentAmount, 0)
-		});
+		}).filter(item => item);
 	}).then(ammounts => {
 		const sum = ammounts.reduce((curr, item) => curr + item, 0);
 		const sumRounded = Math.round(sum);
