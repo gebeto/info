@@ -29,12 +29,11 @@ async function getServiceData(row, initData, serviceKey, accountNumber) {
 	const json = await fetch("https://api.easypay.ua/api/genericCommunalFlow/check", {
 		"headers": {
 			"accept":"application/json, text/plain, */*",
-			// "appid":"e18ecdba-b592-4cba-bb3b-48486b0bfe49",
 			"appid": initData.appId,
 			"content-type":"application/json; charset=UTF-8",
-			// "pageid":"5e550c19-5618-4821-a46e-4282b71bacb1",
 			"pageid": initData.pageId,
 			"partnerkey":"easypay-v2",
+			"locale":"uk",
 		},
 		"body": JSON.stringify({
 			"fields": [
