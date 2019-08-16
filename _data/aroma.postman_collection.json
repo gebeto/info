@@ -1,0 +1,346 @@
+{
+	"info": {
+		"_postman_id": "4e61ecff-c396-4c4b-822c-75fd98a139de",
+		"name": "Aroma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "restaurants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/restaurants",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"restaurants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restaurants/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\": \"Львів\"\n}"
+				},
+				"url": {
+					"raw": "{{base}}/restaurants/search",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"restaurants",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "restaurants/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/restaurants/1",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"restaurants",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bonus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/bonus/history",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"bonus",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/home",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"home"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "popular",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/popular",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"popular"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/user",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user/logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/user/logout",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"user",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth/login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "76046c37-9d75-4591-a12b-27878459c930",
+						"exec": [
+							"const res = pm.response.json();",
+							"pm.globals.set(\"aroma_token\", res.token);",
+							"// pm.globals.set(\"token\", res.token);",
+							"// pm.environment.set(\"token\", res.token);",
+							"// pm.environment.set('token', res.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"phone\": \"PHONE_NUMBER\",\n\t\"password\": \"PASSWORD\"\n}"
+				},
+				"url": {
+					"raw": "{{base}}/auth/login",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/news",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/news/236",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"news",
+						"236"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "config",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{base}}/config",
+					"host": [
+						"{{base}}"
+					],
+					"path": [
+						"config"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{aroma_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0f0b6c91-69fa-4d0a-8954-f663c085b9d0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "fe201072-8c6c-4473-9b39-161856f6d7dc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "8ef7d7af-9313-4d98-87e5-16b70fb04af3",
+			"key": "base",
+			"value": "http://web.aromakava.ua:30082/api",
+			"type": "string"
+		},
+		{
+			"id": "1bc47f22-020c-42a6-8fa1-6d2519cce074",
+			"key": "token",
+			"value": "a",
+			"type": "string"
+		}
+	]
+}
