@@ -7,14 +7,14 @@ nav_order: 1
 
 # How to run Minecraft bedrock server with Docker
 
-Use `lomot/minecraft-bedrock:1.11.1.2-r1` image:
+Use [`lomot/minecraft-bedrock`](https://hub.docker.com/r/lomot/minecraft-bedrock) image:
 ```sh
- $ docker pull lomot/minecraft-bedrock:1.11.1.2-r1
+ $ docker pull lomot/minecraft-bedrock
 ```
 
 Run container with:
 ```sh
- $ docker run -d -it --name mcpe -v $PWD/mcpe-data:/data -p 19132:19132/udp lomot/minecraft-bedrock:1.11.1.2-r1
+ $ docker run -d -it --name mcpe -v $PWD/mcpe-data:/data -p 19132:19132/udp lomot/minecraft-bedrock
 ```
 
 Kill container with command:
@@ -26,3 +26,7 @@ Remove container with command:
 ```sh
  $ docker container rm mcpe
 ```
+
+
+More info [HERE](https://hub.docker.com/r/lomot/minecraft-bedrock)
+
