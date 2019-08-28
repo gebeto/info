@@ -1,11 +1,11 @@
 ---
 parent: How To
-title: Run VirtualBox headless
+title: Use VirtualBox headless
 nav_order: 1
 ---
 
 
-# How to run VirtualBox headless
+# How to use VirtualBox headless
 
 
 ## Start virtual machine
