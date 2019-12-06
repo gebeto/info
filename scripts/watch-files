@@ -1,0 +1,19 @@
+get_stat() {
+	# echo $(ls | grep -v __pycache__ | xargs shasum | shasum)
+	echo $(shasum ./*.py | shasum)
+}
+
+# current_state=$(get_stat)
+
+while $(true); do
+	new_state=$(get_stat)
+	if [ "$new_state" == "$current_state" ]; then
+		sleep 1;
+	else
+		echo "CHANED! $new_state | $current_state";
+		current_state=$(get_stat)
+		# pytest --pythonwarnings=ignore tests.py
+		$@
+	fi
+done;
+
