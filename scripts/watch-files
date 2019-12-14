@@ -10,7 +10,8 @@ while $(true); do
 	if [ "$new_state" == "$current_state" ]; then
 		sleep 1;
 	else
-		echo "CHANED! $new_state | $current_state";
+	    clear;
+    	echo "CHANGED! $new_state | $current_state";
 		current_state=$(get_stat)
 		# pytest --pythonwarnings=ignore tests.py
 		$@
