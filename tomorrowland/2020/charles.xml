@@ -104,7 +104,7 @@
                 <port>443</port>
                 <path>/settings-production.json</path>
               </sourceLocation>
-              <dest>~/Desktop/GitHub/info/tomorrowland/2020/settings-production.json</dest>
+              <dest>/Users/gebeto/Desktop/GitHub/info/tomorrowland/2020/settings-production.json</dest>
               <enabled>true</enabled>
               <caseSensitive>true</caseSensitive>
             </mapLocalMapping>
