@@ -1,0 +1,395 @@
+{
+	"captcha": false,
+	"braceletsTexts": [],
+	"greeting": {
+		"items": [{
+			"content": "<p>This is your personal Tomorrowland Account. You can update your personal settings and find more info about Tomorrowland related topics.</p>"
+		}]
+	},
+	"settings": {
+		"showTrackAndTrace": true
+	},
+	"infoBoxes": [{
+		"id": "tomorrowland2020-prereg",
+		"type": "prereg",
+		"boxTitle": "Tomorrowland Belgium",
+		"festivalCode": "TL20BE",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191212-prereg-2020.jpg",
+		"headerTitle": "THE REFLECTION OF LOVE",
+		"headerContentHTML": "<p>Pre-Registration for Tomorrowland Belgium 2020 starts:<br>Saturday – December 14th – 17h00 CET.<p><strong>TOMORROWLAND BELGIUM 2020</strong><br>Weekend 1: July - 17, 18, 19 - 2020<br>Weekend 2: July - 24, 25, 26 – 2020</p>",
+		"countdownTarget": "2019-12-14T08:45:00+01:00",
+		"contentHTML": "<div class='block'><p>The first 20 people of each nationality who register, receive a personal link in their Tomorrowland Account to buy a maximum of 4 tickets for Tomorrowland Belgium 2020.<br>The first 20 people of each nationality will be informed before December 20th.<br><br>Do not refresh this page<br><br></p></div>",
+		"fields": [{
+			"type": "select",
+			"title": "Preferred weekend",
+			"placeholder": "Select your preferred weekend",
+			"name": "weekend",
+			"conditions": ["required"],
+			"options": [{
+				"value": "W1",
+				"label": "Weekend 1: 17 – 19 July 2020"
+			}, {
+				"value": "W2",
+				"label": "Weekend 2: 24 – 26 July 2020"
+			}, {
+				"value": "NO_PREFERENCE",
+				"label": "I have no preferred weekend"
+			}]
+		}],
+		"conditions": [
+			"notRegisteredForAnySpecifiedEventsOnly_TL20BE"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience. Discover multiple activities on the slopes or in the village of Alpe d’Huez. A unique Nordic adventure like dogsledding, your first paragliding experience and so much more, all is possible.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_4D",
+			"target": "_blank",
+			"title": "4 and 1-day packages",
+			"url": "https://shop.paylogic.com/133737/19402/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_7D",
+			"target": "_blank",
+			"title": "7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19401/",
+			"enabled": true
+		}],
+		"conditions": [
+			"nonSaleOnly_TLW20",
+			"nonSaleOnly_TLW20_AMBASSADEUR",
+			"nonSaleOnly_TLW20_SEASONAL_SKI_PASS",
+			"nonSaleOnly_TLW20_OWN_LODGING",
+			"nonSaleOnly_TLW20_SEASONAL_STAFF",
+			"nonSaleOnly_TLW20_DAY_PACKAGES"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-SUNWEB",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. Ski & snowboard equipment, lessons, comfort upgrade, travel and ski insurancecan be booked by the Main buyer in the Manage my Booking tool.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_SUNWEB_MMM",
+			"target": "_blank",
+			"title": "Manage my booking",
+			"url": "https://mmb.winterpackages.tomorrowland.com/en/manage-my-booking",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_SUNWEB_4D",
+			"target": "_blank",
+			"title": "Activities 4-day Packages",
+			"url": "https://shop.paylogic.com/133737/19402/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_SUNWEB_7D",
+			"target": "_blank",
+			"title": "Activities 7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19401/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-AMBASSADEUR",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. Ski & snowboard equipment, activities and ski insurance vouchers are available.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_PL_4D",
+			"target": "_blank",
+			"title": "4-day Packages",
+			"url": "https://shop.paylogic.com/133737/19127/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_PL_7D",
+			"target": "_blank",
+			"title": "7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19128/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20_AMBASSADEUR"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-SEASONAL-SKI-PASS",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. Ski & snowboard equipment, activities and ski insurance vouchers are available.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_PL_4D",
+			"target": "_blank",
+			"title": "4-day Packages",
+			"url": "https://shop.paylogic.com/133737/19127/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_PL_7D",
+			"target": "_blank",
+			"title": "7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19128/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20_SEASONAL_SKI_PASS"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-OWN-LODGING",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. Ski & snowboard equipment, activities and ski insurance vouchers are available.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_PL_4D",
+			"target": "_blank",
+			"title": "4-day Packages",
+			"url": "https://shop.paylogic.com/133737/19127/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_PL_7D",
+			"target": "_blank",
+			"title": "7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19128/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20_OWN_LODGING"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-SEASONAL-STAFF",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. As your ticket does not include a ski pass, you don’t need to buy a ski insurance.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_PL_4D",
+			"target": "_blank",
+			"title": "4-day Packages",
+			"url": "https://shop.paylogic.com/133737/19127/",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW_PL_7D",
+			"target": "_blank",
+			"title": "7-day Packages",
+			"url": "https://shop.paylogic.com/133737/19128/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20_SEASONAL_STAFF"]
+	}, {
+		"id": "TLW20-VOUCHER-SALE-DAY-PACKAGES",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Voucher Sale",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191107-voucher-sale.jpg",
+		"descriptionHTML": "<p>Prepare for your journey at Tomorrowland Winter and enhance your experience by organizing your stay as much as possible. Activities and ski insurance vouchers are available. Please make sure to book your activity or insurance on the same day as your ticket is valid.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW_PL_1D",
+			"target": "_blank",
+			"title": "1-day Packages",
+			"url": "https://shop.paylogic.com/133737/19127/",
+			"enabled": true
+		}],
+		"conditions": [
+			"saleOnly_TLW20_DAY_PACKAGES"]
+	}, {
+		"id": "TLW20-PREREGGED",
+		"type": "pika",
+		"boxTitle": "Tomorrowland Winter",
+		"title": "Tomorrowland Winter Packages",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20190924-waiting-list.jpg",
+		"descriptionHTML": "<p><strong>New lodging options</strong> in Alpe d’Huez and <strong>special price offers</strong> in the surrounding villages are added (including options for 2, 3 and 4 persons).</p><p><strong>1-day Packages</strong><br>Discover the Tomorrowland Winter magic for one day. Party at all stages in the village and on the mountains and enjoy a great winter sport day.</p>",
+		"buttons": [{
+			"type": "button",
+			"id": "TLW7D",
+			"target": "_blank",
+			"title": "Buy 7 and 4-day Packages",
+			"url": "https://winterpackages.tomorrowland.com",
+			"enabled": true
+		}, {
+			"type": "button",
+			"id": "TLW1D",
+			"target": "_blank",
+			"title": "Buy 1-day Packages",
+			"url": "https://daypackageswinter.tomorrowland.com",
+			"enabled": true
+		}],
+		"conditions": [
+			"notPossibleCompanyOnly"]
+	}, {
+		"id": "discovereurope",
+		"boxTitle": "Tomorrowland Belgium 2019",
+		"title": "Discover Europe Facebook Group",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20190529-discover-europe.jpg",
+		"buttons": [{
+			"type": "button",
+			"id": "discovereuropejoingroup",
+			"title": "Join Facebook Group",
+			"url": "https://www.facebook.com/groups/689046668219155",
+			"addPld": false,
+			"enabled": true
+		}],
+		"descriptionHTML": "<p>Join the Official Discover Europe Tomorrowland 2019 Facebook Group to connect with other Discover Europe travellers and enjoy your journey together.</p>",
+		"conditions": [
+			"discoverEuropeAllOnly"]
+	}, {
+		"id": "tmlfashion",
+		"boxTitle": "TML BY TOMORROWLAND",
+		"title": "FASHION FOR THE PEOPLE OF TOMORROW",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20191212-fashion.jpg",
+		"buttons": [{
+			"type": "button",
+			"id": "storelink",
+			"target": "_blank",
+			"title": "SHOP NOW",
+			"url": "https://store.tomorrowland.com/?utm_source=my.tomorrowland.com&utm_medium=referral&utm_campaign=mytml&utm_content=bttn"
+		}],
+		"descriptionHTML": "<p>Discover the Official Tomorrowland apparel and accessories in the TML by Tomorrowland Collection. Wear good vibes and positive energy all year round, and spread the warm feeling of Love, Peace and unity across the world.<br>Happiness awaits in every fiber…</p>",
+		"postSales": true,
+		"conditions": [
+			"notPossibleCompanyOnly"]
+	}, {
+		"id": "TLW20COMPANY-SALE",
+		"boxTitle": "Tomorrowland Winter",
+		"type": "pika",
+		"title": "HOSPITALITY & COMPANY PACKAGES",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20190924-waiting-list.jpg",
+		"buttons": [{
+			"type": "button",
+			"id": "companysale",
+			"target": "_blank",
+			"title": "Enter Shop",
+			"enabled": true,
+			"url": "https://hospitality.winterpackages.tomorrowland.com/?token=B2CAFED6"
+		}, {
+			"type": "link",
+			"id": "moreinfo",
+			"target": "_blank",
+			"title": "More info",
+			"url": "https://www.tomorrowland.com/en/tomorrowland-winter-hospitality"
+		}],
+		"descriptionHTML": "<p>The Tomorrowland Winter shop re-opens <strong>October 25th 14:00 CEST</strong>. <br><strong>New lodging options</strong> in Alpe d’Huez and <strong>special price offers</strong> in the surrounding villages are added (including options for 2, 3 and 4 persons).</p>",
+		"conditions": [
+			"possibleCompanyOnly"]
+	}, {
+		"type": "media",
+		"id": "365",
+		"icon": "365",
+		"boxTitle": "Relive Tomorrowland",
+		"description": "Experience the most memorable Tomorrowland moments all year long.",
+		"dividerLabelHTML": "POPULAR ON <strong>365</strong>",
+		"linkTitle": "Discover video - audio - photo",
+		"linkURL": "https://365.tomorrowland.com",
+		"media": [{
+			"type": "video",
+			"imageUrl": "https://static-feed.tomorrowland.com/images/20190828-livesets.jpg",
+			"url": "https://365.tomorrowland.com/category/tomorrowland-2019/442",
+			"title": "Tomorrowland 2019 Livesets",
+			"ctaText": "WATCH NOW"
+		}, {
+			"type": "video",
+			"imageUrl": "https://i3.ytimg.com/vi/_0KMSc7Jz_Y/maxresdefault.jpg",
+			"url": "https://365.tomorrowland.com/video/Steve-Aoki-Tomorrowland-Belgium-2019-W1/f9817a87a1ef156654be2cfc4316f5bb",
+			"title": "Dimitri Vegas & Like Mike Live At Tomorrowland 2019 (FULL Mainstage HD Set)",
+			"length": "01:07:53"
+		}, {
+			"type": "video",
+			"imageUrl": "https://i3.ytimg.com/vi/aMLfWXL-De4/maxresdefault.jpg",
+			"url": "https://365.tomorrowland.com/video/Solomun-Tomorrowland-Belgium-2019-W1/5ba1ffe7eec44f7c186a899b951c0e93",
+			"title": "Solomun | Tomorrowland Belgium 2019 - W1",
+			"length": "1:58:45"
+		}, {
+			"type": "video",
+			"imageUrl": "https://i3.ytimg.com/vi/Xnh_ebeEHys/maxresdefault.jpg",
+			"url": "https://365.tomorrowland.com/video/Tiesto-Tomorrowland-Belgium-2019-W1/2dfbfd040e0472546ee8113385cae2e6",
+			"title": "Tiësto | Tomorrowland Belgium 2019 - W1",
+			"length": "59:32"
+		}],
+		"postSales": true
+	}],
+	"storeBoxes": [{
+		"id": "tmlfashion2",
+		"boxTitle": "TML BY TOMORROWLAND",
+		"title": "FASHION FOR THE PEOPLE OF TOMORROW",
+		"imageUrl": "https://static-feed.tomorrowland.com/images/20181212-tmlbytomorrowland.jpg",
+		"buttons": [{
+			"type": "button",
+			"id": "storelink",
+			"target": "_blank",
+			"title": "SHOP NOW",
+			"url": "https://store.tomorrowland.com/?utm_source=my.tomorrowland.com&utm_medium=referral&utm_campaign=mytml&utm_content=bttn"
+		}],
+		"descriptionHTML": "<p>Discover the Official Tomorrowland apparel and accessories in the TML by Tomorrowland Collection. Wear good vibes and positive energy all year round, and spread the warm feeling of Love, Peace and unity across the world.<br>Happiness awaits in every fiber…</p>"
+	}],
+	"saleInfo": {
+		"boomrumst": {
+			"show": true
+		},
+		"rupelstreek": {
+			"show": false
+		},
+		"TL19BE_GJ": {
+			"show": false
+		},
+		"TL19BE_BE_Sale": {
+			"show": false
+		},
+		"TL19BE_WW_PreSale": {
+			"show": false
+		},
+		"TL19BE_WW_Sale": {
+			"show": false
+		},
+		"younite": {
+			"show": false
+		},
+		"TLW19": {
+			"show": false
+		}
+	},
+	"shops": [{
+		"id": "unitespain",
+		"shopUrl": "https://www.eventbrite.es/e/entradas-unite-with-tomorrowland-barcelona-2019-58783884180#tickets",
+		"shopType": "iframe_fullscreen"
+	}, {
+		"id": "waitinglist",
+		"shopUrl": "https://frontoffice.paylogic.nl/?event_id=129482&point_of_sale_id=11647",
+		"queryParams": {
+			"event_id": "129482",
+			"point_of_sale_id": "11647",
+			"code": "email"
+		},
+		"addPld": "hash",
+		"shopType": "iframe_tml",
+		"conditions": [
+			"acceptedWaitingListOnly_TL19BE"]
+	}, {
+		"id": "winterfirst5",
+		"shopUrl": "https://friends.winterpackages.tomorrowland.com/",
+		"queryParams": {
+			"token": "tlw20First5Token"
+		},
+		"shopType": "redirect",
+		"conditions": [
+			"userHasValue_tlw20First5Token"]
+	}]
+}
