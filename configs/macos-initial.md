@@ -1,3 +1,9 @@
+---
+parent: Scripts
+title: Initial MacOS setup
+nav_order: 1
+---
+
 # MacOS Initial setup
 
 ## Brew
