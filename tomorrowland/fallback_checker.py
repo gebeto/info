@@ -13,3 +13,6 @@ while 1:
 	if redirect and not redirect in ignores:
 		os.system("open {}".format(redirect))
 		ignores.append(redirect)
+
+
+# https://static-feed.tomorrowland.com/settings-production.json?t=26311464
