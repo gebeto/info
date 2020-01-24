@@ -39,6 +39,7 @@ docker images --format="{{.ID}} - {{.Repository}}"
 
 Result:
 ```sh
+➜  gebeto $ docker images --format="{{.ID}} - {{.Repository}}"
 b139f422f2eb - nodetest
 a9b93747c62f - dpage/pgadmin4
 d32bf7fc7d5f - node
