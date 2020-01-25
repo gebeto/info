@@ -13,7 +13,7 @@ class Checker():
 	def _check(self):
 		j = json.loads(urlopen(url).read())
 		infoBoxes = j["infoBoxes"]
-		TL2020 = filter(lambda x: x["id"] == "tomorrowland2020-preregged", infoBoxes)[0]
+		TL2020 = filter(lambda x: x["id"] in ["tomorrowland2020-preregged", "tomorrowland2020-prereg"], infoBoxes)[0]
 		buttons = TL2020["buttons"]
 		button = buttons[0]
 		button_url = button["url"]
