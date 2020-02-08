@@ -1,3 +1,9 @@
+---
+parent: Other
+title: Komunalka
+nav_order: 1
+---
+
 # Komunalka
 
 | Тип					  | Номер			 | Посилання															   | Ключ                 |

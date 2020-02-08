@@ -1,6 +1,6 @@
 ---
+parent: Other
 title: Resources
-has_children: false
 nav_order: 10
 ---
 

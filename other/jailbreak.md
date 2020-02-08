@@ -1,3 +1,9 @@
+---
+parent: Other
+title: Jailbreak data
+nav_order: 1
+---
+
 # Jailbreak data
 
 UniqueChipID: 603460125392942
