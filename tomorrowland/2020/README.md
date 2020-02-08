@@ -1,3 +1,9 @@
+---
+title: Tomorrowland 2020
+parent: Tomorrowland
+nav_order: 1
+---
+
 # Tomorrowland 2020
 
 
