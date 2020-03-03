@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 remote_theme: gebeto/just-the-docs
 plugins:
   - jekyll-sitemap
-# color_scheme: "dark"
+
 search_enabled: true
 
 seo: true
