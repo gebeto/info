@@ -1,3 +1,9 @@
+---
+parent: APIs
+title: Silpo
+nav_order: 1
+---
+
 # Silpo
 
 ## API for shop.silpo.ua
