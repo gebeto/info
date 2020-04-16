@@ -6,7 +6,7 @@ nav_order: 1
 
 # Silpo
 
-## API for (shop.silpo.ua)[shop.silpo.ua]
+## API for [shop.silpo.ua](https://shop.silpo.ua)
 
 
 Search items:
