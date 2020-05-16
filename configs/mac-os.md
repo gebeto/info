@@ -1,5 +1,5 @@
 ---
-parent: Scripts
+parent: Configs
 title: MacOS First setup
 nav_order: 1
 ---

@@ -1,5 +1,5 @@
 ---
-parent: Scripts
+parent: Configs
 title: Alpine init
 nav_order: 1
 ---
