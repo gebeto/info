@@ -1,7 +1,7 @@
 ---
-title: Tomorrowland
 has_children: true
-nav_order: 10
+nav_order: 8
+title: Tomorrowland
 ---
 
 
