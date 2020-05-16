@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-remote_theme: gebeto/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-sitemap
 
