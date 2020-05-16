@@ -1,7 +1,7 @@
 ---
-title: Other
 has_children: true
-nav_order: 999
+nav_order: 7
+title: Other
 ---
 
 # Other
