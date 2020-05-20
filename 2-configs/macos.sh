@@ -12,3 +12,6 @@ defaults write com.apple.dock autohide-time-modifier -float 0.5
 defaults write com.apple.dock autohide-fullscreen-delayed -bool false
 
 killall Dock
+
+echo "Mute startup sound..."
+sudo nvram StartupMute=%01
