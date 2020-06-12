@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: Lviv Bus api
 nav_order: 1
 ---

@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: Things 3 Cloud
 nav_order: 1
 ---

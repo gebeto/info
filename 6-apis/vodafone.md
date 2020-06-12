@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: Vodafone APIs
 nav_order: 1
 ---

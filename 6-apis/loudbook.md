@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: LoudBook API
 nav_order: 1
 ---

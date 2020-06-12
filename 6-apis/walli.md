@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: WALLI Wallpapers
 nav_order: 1
 ---

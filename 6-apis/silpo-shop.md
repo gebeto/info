@@ -1,5 +1,5 @@
 ---
-parent: APIs
+parent: Apis
 title: Silpo
 nav_order: 1
 ---
