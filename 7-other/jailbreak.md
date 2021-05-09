@@ -29,3 +29,25 @@ ECID iTunes: 224D80269002E
 ECID: 603460125392942
 MODEL: iPhone11,8
 NONC: 8c9b1c0e45cebada167272b0f72c1254dbc9bc1ca30cfe3d02d1a58538ce4f01
+
+
+## Fix iCloud Account
+Jailbreak another (own) device, sign in to your icloud.
+
+Go to:
+/var/mobile/Library
+
+ZIP folder: Accounts
+
+Send Accounts.zip to the iCloud device
+
+Unpack Accounts.zip and replae /var/mobile/Library/Accounts folder on icloud device
+
+
+## Fix activation
+Go to:
+/var/root/Library/Lockdown/data_ark.plist
+
+Add key-value:
+com.apple.mobile⁩.lockdown_cache-ActivationState
+FactoryActivated
