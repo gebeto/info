@@ -17,12 +17,12 @@ tell application "iTerm"
 
 	tell pane_1
 		write text "cd ~/Desktop/dir-1"
-		set name to "sample-two-panes"
+		write text "pwd"
 	end tell
 
 	tell pane_2
 		write text "cd ~/Desktop/dir-2"
-		set name to "sample-two-panes"
+		write text "pwd"
 	end tell
 end tell
 
