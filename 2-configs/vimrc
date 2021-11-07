@@ -5,3 +5,6 @@ set tabstop=4
 set hlsearch
 set incsearch
 highlight LineNr ctermfg=darkgrey
+set noswapfile
+set encoding=utf-8
+
